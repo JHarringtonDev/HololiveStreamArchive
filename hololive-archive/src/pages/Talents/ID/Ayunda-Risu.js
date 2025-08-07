@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "../../header";
 import Footer from "../../footer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 class Risu extends React.Component{
     render(){

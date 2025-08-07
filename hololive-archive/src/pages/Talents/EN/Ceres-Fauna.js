@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../../header";
 import Footer from "../../footer";
-import { Link } from "react-router-dom";
+import * as reactRouter from "react-router";
 
 class Fauna extends React.Component{
     render(){
@@ -30,12 +30,12 @@ class Fauna extends React.Component{
 								<span class="image">
 									<img src="assets/images/games/doom-eternal.png" alt="Doom Eternal" />
 								</span>
-								<Link to="/Doom-Eternal#fauna">
+								<reactRouter.Link to="/Doom-Eternal#fauna">
 									<div class="content">
 									<h2>Doom Eternal</h2>
 										<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 									</div>
-                                    </Link>
+                                    </reactRouter.Link>
 							</article>
 						</section>
                 </div>

@@ -17,8 +17,8 @@ import Shiori from './Talents/EN/Novella-Shiori';
 import Bijou from './Talents/EN/Koseki-Bijou';
 import Nerissa from './Talents/EN/Ravencroft-Nerissa';
 import FUWAMOCO from './Talents/EN/FUWAMOCO';
-import { Routes, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router';
+import { Link } from 'react-router';
 
 
 

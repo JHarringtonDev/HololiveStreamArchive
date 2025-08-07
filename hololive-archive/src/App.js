@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/home';
 import Footer from './pages/footer';
 import Menu from './pages/menu';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router';
 
 // Games
 import Games from './pages/gamesList';

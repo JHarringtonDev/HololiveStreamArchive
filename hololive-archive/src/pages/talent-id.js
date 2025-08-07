@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "./menu";
 import Header from "./header";
 import Footer from "./footer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 
 class TalentID extends React.Component{
