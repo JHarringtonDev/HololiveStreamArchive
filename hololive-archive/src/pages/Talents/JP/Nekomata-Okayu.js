@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import Header from "../../header";
 import Footer from "../../footer";
+import GameHeader from "../../gameHeader";
 import { Link } from "react-router";
 
 let resultsArr = []
@@ -34,15 +35,31 @@ async function fillResults()
         }
     }
     
-    function displayResults()
+    function displayResults(gameString)
     {
+        let partNo = 1
         videoDisplay = document.querySelector("#results")
         videoDisplay.innerHTML = ""
         resultsArr.forEach((e) => 
             {
                 // if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
-                    videoDisplay.innerHTML += `<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}"><img src=${e.snippet.thumbnails.medium.url}></a><br/>
-                    <h3>${e.snippet.title}<br/>`
+                    // videoDisplay.innerHTML += `<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}"><img src=${e.snippet.thumbnails.medium.url}></a><br/>
+                    // <h3>${e.snippet.title}<br/>`
+                    if(e.snippet.title.includes(gameString))
+                    {
+                    videoDisplay.innerHTML +=
+                       `<article class="style1 videoItem">
+										<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}" target="_blank">
+										<span classe="image">
+											<img src="${e.snippet.thumbnails.medium.url}" alt="Doom Eternal Part 1" class="videoImg"/>
+										</span>
+											<h2>【Part #${partNo}】</h2>
+										</a>
+									</article>`
+
+                        partNo++
+                    }
+
                 // }
             } )
             console.log(resultsArr.length)
@@ -53,23 +70,34 @@ async function fillResults()
             render(){
                 fillResults()
     return(
-        <div id="wrapper">
+            <div id="wrapper">
 
-        {/* Header */}
-        <Header />
+				{/* Header */}
+				<Header />
 
-        {/* Menu */}
-        {/* <Menu /> */}
+				{/* Menu */}
+				{/* <Menu /> */}
 
-        {/* Main */}
-            <div id="main">
-                <div class="inner">
-                    <header>
-                        <h1 onClick={() => {displayResults()}}>Donkey Kong Bananza</h1>
-                        <p id="results"></p>
-                    </header>
-                </div>
-            </div>
+				{/* Main */}
+					<div id="main">
+						<div className="inner">
+							<GameHeader />
+							<section id="talentBox">
+							<img src="assets/images/mori-calliope.png" id="calliope" className="iconSelect" onClick={() => {displayResults("【 ゼノブレイド2 】")}}/>
+							<img src="assets/images/amelia-watson.png" id="amelia" className="iconSelect" onClick={() => {displayResults("【 ドンキーコングバナンザ 】")}}/>
+							</section>
+							<section id="videoList">
+								{/* Talent Sections and video articles inside */}
+								<section id="moriCalliope" className="partContainer">
+								<h2 className="talentName">Calliope Mori</h2>
+								<section id="results" className="tiles parts">
+									
+								</section>
+									</section>
+							</section>
+						</div>
+					</div>
+
 
         {/* Footer */}
             <Footer />
