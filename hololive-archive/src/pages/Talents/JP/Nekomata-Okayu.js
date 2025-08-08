@@ -31,10 +31,11 @@ async function fillResults()
                 //     resultsArr.push(e)
                 // })
                 
-            
+            resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
         }
 
         document.querySelector("#talentBox").classList.remove('hidden')
+
     }
     
     function displayResults(gameString)
@@ -64,7 +65,6 @@ async function fillResults()
 
                 // }
             } )
-            console.log(resultsArr.length)
         }
 
         
@@ -85,7 +85,7 @@ async function fillResults()
 						<div className="inner">
 							<GameHeader />
 							<section id="talentBox" class = "hidden">
-							<img src="assets/images/mori-calliope.png" id="calliope" className="iconSelect" onClick={() => {displayResults("【 ゼノブレイド2 】")}}/>
+							<img src="assets/images/mori-calliope.png" id="calliope" className="iconSelect" onClick={() => {displayResults("【ドラゴンクエスト11S】")}}/>
 							<img src="assets/images/amelia-watson.png" id="amelia" className="iconSelect" onClick={() => {displayResults("【 ドンキーコングバナンザ 】")}}/>
 							</section>
 							<section id="videoList">
