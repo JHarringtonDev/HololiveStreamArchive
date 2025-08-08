@@ -85,8 +85,8 @@ async function fillResults()
 						<div className="inner">
 							<GameHeader />
 							<section id="talentBox" class = "hidden">
-							<img src="assets/images/mori-calliope.png" id="calliope" className="iconSelect" onClick={() => {displayResults("【ドラゴンクエスト11S】")}}/>
-							<img src="assets/images/amelia-watson.png" id="amelia" className="iconSelect" onClick={() => {displayResults("【 ドンキーコングバナンザ 】")}}/>
+							<img src="assets/images/games/re1.png" alt="Resident Evil HD" id="calliope" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER")}}/>
+							<img src="assets/images/games/re2.png" alt="Resident Evil 2" id="amelia" className="iconSelect" onClick={() => {displayResults("biohazard RE:2")}}/>
 							</section>
 							<section id="videoList">
 								{/* Talent Sections and video articles inside */}
