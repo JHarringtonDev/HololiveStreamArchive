@@ -6,20 +6,28 @@ import { Link } from "react-router";
 
 let resultsArr = []
 let displayArr = []
+let totalVideoNo = 2;
 let videoDisplay
 
-function fillResults()
+async function fillResults()
 {
-    let pagetoken = ""
-    fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs&maxResults=50${pagetoken}`)
-    .then(res => res.json())
-    .then(data=>{
+    let pageToken = ""
+    for(let i=0; i< totalVideoNo; i++)
+    {
+        let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs`)
+        
+        let data = await res.json();
+
         resultsArr = resultsArr.concat(data.items)
-        // data.items.forEach(e => {
-            //     resultsArr.push(e)
-            // })
+        pageToken = `&pageToken=${data.nextPageToken}`
+        console.log(pageToken)
+
+            // data.items.forEach(e => {
+                //     resultsArr.push(e)
+                // })
+                
             
-        })
+        }
     }
     
     function displayResults()
@@ -28,10 +36,10 @@ function fillResults()
         videoDisplay.innerHTML = ""
         resultsArr.forEach((e) => 
             {
-                if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
+                // if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
                     videoDisplay.innerHTML += `<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}"><img src=${e.snippet.thumbnails.medium.url}></a><br/>
                     <h3>${e.snippet.title}<br/>`
-                }
+                // }
             } )
             console.log(resultsArr.length)
         }
