@@ -9,21 +9,23 @@ let displayArr = []
 let videoDisplay
 
 function fillResults()
-    {
-        console.log("function ran")
-        fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs&maxResults=50")
-        .then(res => res.json())
-        .then(data=>{
-            videoDisplay = document.querySelector("#results")
-            data.items.forEach(e => {
-                resultsArr.push(e)
-            })
-            //console.log(data);
+{
+    let pagetoken = ""
+    fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs&maxResults=50${pagetoken}`)
+    .then(res => res.json())
+    .then(data=>{
+        resultsArr = resultsArr.concat(data.items)
+        // data.items.forEach(e => {
+            //     resultsArr.push(e)
+            // })
+            
         })
     }
-
+    
     function displayResults()
     {
+        videoDisplay = document.querySelector("#results")
+        videoDisplay.innerHTML = ""
         resultsArr.forEach((e) => 
             {
                 if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
@@ -32,12 +34,12 @@ function fillResults()
                 }
             } )
             console.log(resultsArr.length)
-    }
+        }
 
-
-class Okayu extends React.Component{
-    render(){
-        fillResults()
+        
+        class Okayu extends React.Component{
+            render(){
+                fillResults()
     return(
         <div id="wrapper">
 
