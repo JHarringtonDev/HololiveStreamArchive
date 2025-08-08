@@ -33,6 +33,8 @@ async function fillResults()
                 
             
         }
+
+        document.querySelector("#talentBox").classList.remove('hidden')
     }
     
     function displayResults(gameString)
@@ -82,7 +84,7 @@ async function fillResults()
 					<div id="main">
 						<div className="inner">
 							<GameHeader />
-							<section id="talentBox">
+							<section id="talentBox" class = "hidden">
 							<img src="assets/images/mori-calliope.png" id="calliope" className="iconSelect" onClick={() => {displayResults("【 ゼノブレイド2 】")}}/>
 							<img src="assets/images/amelia-watson.png" id="amelia" className="iconSelect" onClick={() => {displayResults("【 ドンキーコングバナンザ 】")}}/>
 							</section>
