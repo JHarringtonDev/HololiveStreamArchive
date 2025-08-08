@@ -6,13 +6,13 @@ import { Link } from "react-router";
 
 let resultsArr = []
 let displayArr = []
-let totalVideoNo = 2;
+let totalVideoNo = 100;
 let videoDisplay
 
 async function fillResults()
 {
     let pageToken = ""
-    for(let i=0; i< totalVideoNo; i++)
+    while (resultsArr.length < totalVideoNo)
     {
         let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs`)
         
@@ -20,7 +20,11 @@ async function fillResults()
 
         resultsArr = resultsArr.concat(data.items)
         pageToken = `&pageToken=${data.nextPageToken}`
-        console.log(pageToken)
+
+        if(totalVideoNo == 100){
+            totalVideoNo = data.pageInfo.totalResults
+        }
+
 
             // data.items.forEach(e => {
                 //     resultsArr.push(e)
