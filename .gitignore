@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hololive-archive//node_modules
+hololive-archive//.pnp
+hololive-archive/.pnp.js
+hololive-archive/
+# testing
+hololive-archive//coverage
+
+hololive-archive/# production
+hololive-archive//build
+
+# misc
+hololive-archive/.DS_Store
+hololive-archive/.env
+hololive-archive/.env.local
+hololive-archive/.env.development.local
+hololive-archive/.env.test.local
+hololive-archive/.env.production.local
+
+hololive-archive/npm-debug.log*
+hololive-archive/yarn-debug.log*
+hololive-archive/yarn-error.log*
