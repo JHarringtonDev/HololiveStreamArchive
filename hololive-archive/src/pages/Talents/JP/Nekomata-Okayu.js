@@ -13,9 +13,10 @@ let videoDisplay
 async function fillResults()
 {
     let pageToken = ""
+ 
     while (resultsArr.length < totalVideoNo)
     {
-        let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=AIzaSyApDNwFNfi4HTJOEAVefxOdfBckc-pLqSs`)
+        let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
         
         let data = await res.json();
 
@@ -43,18 +44,18 @@ async function fillResults()
         let partNo = 1
         videoDisplay = document.querySelector("#results")
         videoDisplay.innerHTML = ""
-        resultsArr.forEach((e) => 
+        resultsArr.forEach((arrayElement) => 
             {
                 // if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
                     // videoDisplay.innerHTML += `<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}"><img src=${e.snippet.thumbnails.medium.url}></a><br/>
                     // <h3>${e.snippet.title}<br/>`
-                    if(e.snippet.title.includes(gameString))
+                    if(arrayElement.snippet.title.includes(gameString))
                     {
                     videoDisplay.innerHTML +=
                        `<article class="style1 videoItem">
-										<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}" target="_blank">
+										<a href="https://www.youtube.com/watch?v=${arrayElement.snippet.resourceId.videoId}" target="_blank">
 										<span classe="image">
-											<img src="${e.snippet.thumbnails.medium.url}" alt="Doom Eternal Part 1" class="videoImg"/>
+											<img src="${arrayElement.snippet.thumbnails.medium.url}" alt="Doom Eternal Part 1" class="videoImg"/>
 										</span>
 											<h2>【Part #${partNo}】</h2>
 										</a>

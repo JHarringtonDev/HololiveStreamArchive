@@ -81,6 +81,8 @@ import Kaela from './pages/Talents/ID/Kaela-Kovalskia';
 import Kobo from './pages/Talents/ID/Kobo-Kanaeru';
 // #endregion
 
+//require('dotenv').config();
+
 function App() {
   return (
     <div>
