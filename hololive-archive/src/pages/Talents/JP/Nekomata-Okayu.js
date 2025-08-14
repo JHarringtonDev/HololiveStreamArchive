@@ -13,7 +13,6 @@ let videoDisplay
 async function fillResults()
 {
     let pageToken = ""
- 
     while (resultsArr.length < totalVideoNo)
     {
         let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
@@ -27,11 +26,6 @@ async function fillResults()
             totalVideoNo = data.pageInfo.totalResults
         }
 
-
-            // data.items.forEach(e => {
-                //     resultsArr.push(e)
-                // })
-                
             resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
         }
 
@@ -46,9 +40,6 @@ async function fillResults()
         videoDisplay.innerHTML = ""
         resultsArr.forEach((arrayElement) => 
             {
-                // if(e.snippet.title.includes("【 ドンキーコングバナンザ 】")){
-                    // videoDisplay.innerHTML += `<a href="https://www.youtube.com/watch?v=${e.snippet.resourceId.videoId}"><img src=${e.snippet.thumbnails.medium.url}></a><br/>
-                    // <h3>${e.snippet.title}<br/>`
                     if(arrayElement.snippet.title.includes(gameString))
                     {
                     videoDisplay.innerHTML +=
