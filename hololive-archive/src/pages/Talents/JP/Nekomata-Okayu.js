@@ -13,6 +13,7 @@ let videoDisplay
 async function fillResults()
 {
     let pageToken = ""
+ 
     while (resultsArr.length < totalVideoNo)
     {
         let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
@@ -25,7 +26,7 @@ async function fillResults()
         if(totalVideoNo == 100){
             totalVideoNo = data.pageInfo.totalResults
         }
-
+                
             resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
         }
 
