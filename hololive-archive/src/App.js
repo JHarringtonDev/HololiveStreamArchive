@@ -5,6 +5,8 @@ import Footer from './pages/footer';
 import Menu from './pages/menu';
 import { Routes, Route } from 'react-router';
 
+import Database from './pages/database';
+
 // Games
 import Games from './pages/gamesList';
 import GameHeader from './pages/gameHeader';
@@ -89,6 +91,7 @@ function App() {
     <Menu />
     <Routes>
       <Route path='/' element={<Home />}/>
+      <Route path='Database' element={<Database />}/>
       <Route path='Games' element={<Games/>}/>
       <Route path='HoloEN' element={<TalentEN />}/>
       <Route path='HoloJP' element={<TalentJP />}/>

@@ -10,29 +10,29 @@ let displayArr = []
 let totalVideoNo = 100;
 let videoDisplay
 
-async function fillResults()
-{
-    let pageToken = ""
+// async function fillResults()
+// {
+    // let pageToken = ""
  
-    while (resultsArr.length < totalVideoNo)
-    {
-        let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
+    // while (resultsArr.length < totalVideoNo)
+    // {
+    //     let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
         
-        let data = await res.json();
+    //     let data = await res.json();
 
-        resultsArr = resultsArr.concat(data.items)
-        pageToken = `&pageToken=${data.nextPageToken}`
+    //     resultsArr = resultsArr.concat(data.items)
+    //     pageToken = `&pageToken=${data.nextPageToken}`
 
-        if(totalVideoNo == 100){
-            totalVideoNo = data.pageInfo.totalResults
-        }
+    //     if(totalVideoNo == 100){
+    //         totalVideoNo = data.pageInfo.totalResults
+    //     }
                 
-            resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
-        }
+    //         resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
+    //     }
 
-        document.querySelector("#talentBox").classList.remove('hidden')
+    //     document.querySelector("#talentBox").classList.remove('hidden')
 
-    }
+    // }
     
     function displayResults(gameString)
     {
@@ -63,7 +63,7 @@ async function fillResults()
         
         class Okayu extends React.Component{
             render(){
-                fillResults()
+                // fillResults()
     return(
             <div id="wrapper">
 
