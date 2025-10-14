@@ -1,7 +1,7 @@
 
 import React from "react";
-import Header from "../../header";
-import Footer from "../../footer";
+import Header from "../../header.js";
+import Footer from "../../footer.js";
 import { Link } from "react-router";
 
 class Lamy extends React.Component{

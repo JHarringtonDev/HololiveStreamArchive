@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "./menu";
-import Header from "./header";
-import Footer from "./footer";
+import Menu from "./menu.js";
+import Header from "./header.js";
+import Footer from "./footer.js";
 import { Link } from "react-router";
 
 

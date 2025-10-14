@@ -1,8 +1,8 @@
 
 import React, { useRef } from "react";
-import Header from "../../header";
-import Footer from "../../footer";
-import GameHeader from "../../gameHeader";
+import Header from "../../header.js";
+import Footer from "../../footer.js";
+import GameHeader from "../../gameHeader.js";
 import { Link } from "react-router";
 
 let resultsArr = []
