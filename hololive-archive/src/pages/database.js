@@ -22,8 +22,21 @@ async function refreshDatabaseOkayu() {
   
         resultsArr.sort((a, b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : -1 );
     }
+    extractVideoDetails(resultsArr);
 
-    // console.log(JSON.stringify(resultsArr));
+    function extractVideoDetails(sortedResultsArray) {
+        let resultsJsonArray = [];
+         sortedResultsArray.forEach(element => {
+            resultsJsonArray.push({
+                videoId: element.snippet.resourceId.videoId,
+                thumbnail: element.snippet.thumbnails.medium.url,
+                title: element.snippet.title,
+                publishedAt: element.snippet.publishedAt
+            })
+        })
+
+        console.log(JSON.stringify(resultsJsonArray));
+    }
 
     // Call Express endpoint with the gathered results
     // try {
