@@ -4,8 +4,9 @@ import Header from "../../header.js";
 import Footer from "../../footer.js";
 import GameHeader from "../../gameHeader.js";
 import { Link } from "react-router";
+import { videoList } from "../../videoResults.js";
 
-let resultsArr = []
+const resultsArr = videoList.Okayu;
 let displayArr = []
 let totalVideoNo = 100;
 let videoDisplay
@@ -41,13 +42,13 @@ let videoDisplay
         videoDisplay.innerHTML = ""
         resultsArr.forEach((arrayElement) => 
             {
-                    if(arrayElement.snippet.title.includes(gameString))
+                    if(arrayElement.title.includes(gameString))
                     {
                     videoDisplay.innerHTML +=
                        `<article class="style1 videoItem">
-										<a href="https://www.youtube.com/watch?v=${arrayElement.snippet.resourceId.videoId}" target="_blank">
+										<a href="https://www.youtube.com/watch?v=${arrayElement.videoId}" target="_blank">
 										<span classe="image">
-											<img src="${arrayElement.snippet.thumbnails.medium.url}" alt="Doom Eternal Part 1" class="videoImg"/>
+											<img src="${arrayElement.thumbnail}" alt="Doom Eternal Part 1" class="videoImg"/>
 										</span>
 											<h2>【Part #${partNo}】</h2>
 										</a>
@@ -59,7 +60,7 @@ let videoDisplay
                 // }
             } )
         }
-
+        console.log(resultsArr)
         
         class Okayu extends React.Component{
             render(){
@@ -77,7 +78,7 @@ let videoDisplay
 					<div id="main">
 						<div className="inner">
 							<GameHeader />
-							<section id="talentBox" class = "hidden">
+							<section id="talentBox">
 							<img src="assets/images/games/re1.png" alt="Resident Evil HD" id="calliope" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER")}}/>
 							<img src="assets/images/games/re2.png" alt="Resident Evil 2" id="amelia" className="iconSelect" onClick={() => {displayResults("biohazard RE:2")}}/>
 							</section>

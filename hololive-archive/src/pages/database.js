@@ -35,7 +35,7 @@ async function refreshDatabaseOkayu() {
             })
         })
 
-        console.log(JSON.stringify(resultsJsonArray));
+        console.log(resultsJsonArray);
     }
 
     // Call Express endpoint with the gathered results
