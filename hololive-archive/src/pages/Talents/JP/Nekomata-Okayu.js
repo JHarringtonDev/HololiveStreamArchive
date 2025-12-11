@@ -4,7 +4,7 @@ import Header from "../../header.js";
 import Footer from "../../footer.js";
 import GameHeader from "../../gameHeader.js";
 import { Link } from "react-router";
-import { videoList } from "../../videoResults.js";
+import { videoList } from "../../VideoResults/videoResultsGamers.js";
 
 const resultsArr = videoList.Okayu;
 let displayArr = []
