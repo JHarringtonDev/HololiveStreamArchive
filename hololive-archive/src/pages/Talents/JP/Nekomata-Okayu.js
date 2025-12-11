@@ -60,7 +60,7 @@ let videoDisplay
                 // }
             } )
         }
-        console.log(resultsArr)
+        // console.log(resultsArr)
         
         class Okayu extends React.Component{
             render(){

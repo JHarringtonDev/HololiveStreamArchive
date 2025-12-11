@@ -46,7 +46,7 @@ import Nene from './pages/Talents/JP/Momosuzu-Nene.js';
 import Coco from './pages/Talents/JP/Kiryu-Coco.js';
 import Botan from './pages/Talents/JP/Shishiro-Botan.js';
 import Polka from './pages/Talents/JP/Omaru-Polka.js';
-import Laplus from './pages/Talents/JP/Laplus-Darkness.js';
+import Laplus from './pages/Talents/JP/Laplus-Darknesss.js';
 import Lui from './pages/Talents/JP/Takane-Lui.js';
 import Koyori from './pages/Talents/JP/Hakui-Koyori.js';
 import Chloe from './pages/Talents/JP/Sakamata-Chloe.js';
