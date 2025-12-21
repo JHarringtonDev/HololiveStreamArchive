@@ -1,5 +1,7 @@
 
 import React from "react";
+import Home from './home.js';
+import { Link } from 'react-router';
 
 class Header extends React.Component{
     render(){
@@ -9,9 +11,9 @@ class Header extends React.Component{
 						<div className="inner">
 
 							{/* <!-- Logo --> */}
-								<a href="assets/index.html" class="logo">
-									<span className="symbol"><img src="assets/images/logo.svg" alt="" /></span><span className="title">Phantom</span>
-								</a>
+								<Link to= "/Home">
+									<span className="symbol"><img src="assets/images/logo.svg" alt="" /></span><span className="title">Home</span>
+								</Link>
 
 							{/* <!-- Nav --> */}
 								<nav>

@@ -79,13 +79,13 @@ let videoDisplay
 						<div className="inner">
 							<GameHeader />
 							<section id="talentBox">
-							<img src="assets/images/games/re1.png" alt="Resident Evil HD" id="calliope" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER")}}/>
-							<img src="assets/images/games/re2.png" alt="Resident Evil 2" id="amelia" className="iconSelect" onClick={() => {displayResults("biohazard RE:2")}}/>
+							<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER")}}/>
+							<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() => {displayResults("biohazard RE:2")}}/>
 							</section>
 							<section id="videoList">
 								{/* Talent Sections and video articles inside */}
 								<section id="moriCalliope" className="partContainer">
-								<h2 className="talentName">Calliope Mori</h2>
+								<h2 className="talentName">Nekomata Okayu</h2>
 								<section id="results" className="tiles parts">
 									
 								</section>

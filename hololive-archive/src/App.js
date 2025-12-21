@@ -96,6 +96,7 @@ function App() {
       <Route path='HoloEN' element={<TalentEN />}/>
       <Route path='HoloJP' element={<TalentJP />}/>
       <Route path='HoloID' element={<TalentID />}/>
+      <Route path='Home' element={<Home />}/>
 
       {/* EN */}
       <Route path='Mori-Calliope' element={<Calliope />}/>
