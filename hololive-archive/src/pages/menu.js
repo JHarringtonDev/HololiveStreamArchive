@@ -13,7 +13,7 @@ class Menu extends React.Component{
 						<li><Link to="/Games">Games List</Link></li>
 						<li><Link to="/HoloEN">HoloEN</Link></li>
 						<li><Link to="/HoloJP">HoloJP</Link></li>
-                        <li><Link to="/HoloID">HoloID</Link></li>
+            <li><Link to="/HoloID">HoloID</Link></li>
 					</ul>
                     </div>
 				</nav>
