@@ -2,65 +2,12 @@
 import React, { useRef } from "react";
 import Header from "../../header.js";
 import Footer from "../../footer.js";
-import GameHeader from "../../gameHeader.js";
+// import GameHeader from "../../gameHeader.js";
+import StreamDisplay from "../../streamDisplay.jsx";
 import { Link } from "react-router";
 import { videoList } from "../../VideoResults/videoResultsGamers.js";
 
 const resultsArr = videoList.Okayu;
-let displayArr = []
-let totalVideoNo = 100;
-let videoDisplay
-
-// async function fillResults()
-// {
-    // let pageToken = ""
- 
-    // while (resultsArr.length < totalVideoNo)
-    // {
-    //     let res = await fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUvaTdHTWBGv3MKj3KVqJVCw&maxResults=50${pageToken}&key=${process.env.REACT_APP_YOUTUBE_API_KEY}`);
-        
-    //     let data = await res.json();
-
-    //     resultsArr = resultsArr.concat(data.items)
-    //     pageToken = `&pageToken=${data.nextPageToken}`
-
-    //     if(totalVideoNo == 100){
-    //         totalVideoNo = data.pageInfo.totalResults
-    //     }
-                
-    //         resultsArr.sort((a,b) => (a.snippet.publishedAt > b.snippet.publishedAt) ? 1 : ((b.snippet.publishedAt > a.snippet.publishedAt) ? -1 : 0))
-    //     }
-
-    //     document.querySelector("#talentBox").classList.remove('hidden')
-
-    // }
-    
-    function displayResults(gameString)
-    {
-        let partNo = 1
-        videoDisplay = document.querySelector("#results")
-        videoDisplay.innerHTML = ""
-        resultsArr.forEach((arrayElement) => 
-            {
-                    if(arrayElement.title.includes(gameString))
-                    {
-                    videoDisplay.innerHTML +=
-                       `<article class="style1 videoItem">
-										<a href="https://www.youtube.com/watch?v=${arrayElement.videoId}" target="_blank">
-										<span classe="image">
-											<img src="${arrayElement.thumbnail}" alt="Doom Eternal Part 1" class="videoImg"/>
-										</span>
-											<h2>【Part #${partNo}】</h2>
-										</a>
-									</article>`
-
-                        partNo++
-                    }
-
-                // }
-            } )
-        }
-        // console.log(resultsArr)
         
         class Okayu extends React.Component{
             render(){
@@ -72,27 +19,9 @@ let videoDisplay
 				<Header />
 
 				{/* Menu */}
-				{/* <Menu /> */}
 
 				{/* Main */}
-					<div id="main">
-						<div className="inner">
-							<GameHeader />
-							<section id="talentBox">
-							<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER")}}/>
-							<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() => {displayResults("biohazard RE:2")}}/>
-							</section>
-							<section id="videoList">
-								{/* Talent Sections and video articles inside */}
-								<section id="moriCalliope" className="partContainer">
-								<h2 className="talentName">Nekomata Okayu</h2>
-								<section id="results" className="tiles parts">
-									
-								</section>
-									</section>
-							</section>
-						</div>
-					</div>
+                <StreamDisplay talentName="Nekomata Okayu" results={resultsArr} />
 
 
         {/* Footer */}
