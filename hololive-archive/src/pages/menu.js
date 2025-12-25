@@ -10,7 +10,7 @@ class Menu extends React.Component{
 					<h2>Menu</h2>
 					<ul>
 						<li><Link to="/">Home</Link></li>
-						<li><Link to="/Games">Games List</Link></li>
+						{/* <li><Link to="/Games">Games List</Link></li> */}
 						<li><Link to="/HoloEN">HoloEN</Link></li>
 						<li><Link to="/HoloJP">HoloJP</Link></li>
             <li><Link to="/HoloID">HoloID</Link></li>
