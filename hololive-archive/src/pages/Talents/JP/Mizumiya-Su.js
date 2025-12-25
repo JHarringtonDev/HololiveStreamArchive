@@ -2,11 +2,11 @@ import React, { useRef } from "react";
 import Header from "../../header.js";
 import Footer from "../../footer.js";
 import StreamDisplay from "../../streamDisplay.jsx";
-import { videoList } from "../../VideoResults/videoResultsPromise.js";
+import { videoList } from "../../VideoResults/videoResultsFlowGlow.js";
 
-const resultsArr = videoList.IRyS;
+const resultsArr = videoList.Su;
 
-class IRyS extends React.Component{
+class Su extends React.Component{
     render(){
     
       return(
@@ -29,4 +29,4 @@ class IRyS extends React.Component{
 }
 }
 
-export default IRyS
+export default Su

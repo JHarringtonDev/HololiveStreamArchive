@@ -51,6 +51,16 @@ import Lui from './pages/Talents/JP/Takane-Lui.js';
 import Koyori from './pages/Talents/JP/Hakui-Koyori.js';
 import Chloe from './pages/Talents/JP/Sakamata-Chloe.js';
 import Iroha from './pages/Talents/JP/Kazama-Iroha.js';
+import Ao from './pages/Talents/JP/Hiodoshi-Ao.js';
+import Kanade from './pages/Talents/JP/Otonose-Kanade.js';
+import Ririka from './pages/Talents/JP/Ichijou-Ririka.js';
+import Raden from './pages/Talents/JP/Juufuutei-Raden.js';
+import Hajime from './pages/Talents/JP/Todoroki-Hajime.js';
+import Riona from './pages/Talents/JP/Isaki-Riona.js';
+import Niko from './pages/Talents/JP/Koganei-Niko.js';
+import Su from './pages/Talents/JP/Mizumiya-Su.js';
+import Chihaya from './pages/Talents/JP/Rindo-Chihaya.js';
+import Vivi from './pages/Talents/JP/Kikirara-Vivi.js';
 
 // HoloEN
 import TalentEN from './pages/talent-en.js';
@@ -69,6 +79,10 @@ import Shiori from './pages/Talents/EN/Novella-Shiori.js';
 import Bijou from './pages/Talents/EN/Koseki-Bijou.js';
 import Nerissa from './pages/Talents/EN/Ravencroft-Nerissa.js';
 import FUWAMOCO from './pages/Talents/EN/FUWAMOCO.js';
+import Elizabeth from './pages/Talents/EN/Elizabeth-Bloodflame.js';
+import Gigi from './pages/Talents/EN/Gigi-Murin.js';
+import Cecilia from './pages/Talents/EN/Cecilia-Immergreen.js';
+import Raora from './pages/Talents/EN/Raora-Panthera.js';
 
 // #region HoloID imports
 import TalentID from './pages/talent-id.js';
@@ -114,7 +128,10 @@ function App() {
       <Route path='Koseki-Bijou' element={<Bijou />}/>
       <Route path='Ravencroft-Nerissa' element={<Nerissa />}/>
       <Route path='FUWAMOCO' element={<FUWAMOCO />}/>
-
+      <Route path='Elizabeth-Bloodflame' element={<Elizabeth />}/>
+      <Route path='Gigi-Murin' element={<Gigi />}/>
+      <Route path='Cecilia-Immergreen' element={<Cecilia />}/>
+      <Route path='Raora-Panthera' element={<Raora />}/>
 
       {/* JP */}
       <Route path='Tokino-Sora' element={<Sora />}/>
@@ -153,7 +170,16 @@ function App() {
       <Route path='Hakui-Koyori' element={<Koyori />}/>
       <Route path='Sakamata-Chloe' element={<Chloe />}/>
       <Route path='Kazama-Iroha' element={<Iroha />}/>
-
+      <Route path='Hiodoshi-Ao' element={<Ao />}/>
+      <Route path='Otonose-Kanade' element={<Kanade />}/>
+      <Route path='Ichijou-Ririka' element={<Ririka />}/>
+      <Route path='Juufuutei-Raden' element={<Raden />}/>
+      <Route path='Todoroki-Hajime' element={<Hajime />}/>
+      <Route path='Isaki-Riona' element={<Riona />}/>
+      <Route path='Koganei-Niko' element={<Niko />}/>
+      <Route path='Mizumiya-Su' element={<Su />}/>
+      <Route path='Rindo-Chihaya' element={<Chihaya />}/>
+      <Route path='Kikirara-Vivi' element={<Vivi />}/>
 
       {/* ID */}
       <Route path="Ayunda-Risu" element={<Risu />}/>

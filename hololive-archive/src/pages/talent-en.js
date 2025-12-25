@@ -207,6 +207,50 @@ class TalentEN extends React.Component{
 										</div>
 									</Link>
 								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Elizabeth-Rose-Bloodflame_list_thumb.png" alt="" />
+									</span>
+									<Link to="/Elizabeth-Bloodflame">
+										<div class="content">
+											<h2>Elizabeth Bloodflame</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Gigi-Murin_list_thumb.png" alt="" />
+									</span>
+									<Link to="/Gigi-Murin">
+										<div class="content">
+											<h2>Gigi Murin</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Cecilia-Immergreen_list_thumb.png" alt="" />
+									</span>
+									<Link to="/Cecilia-Immergreen">
+										<div class="content">
+											<h2>Cecilia Immergreen</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Raora-Panthera_list_thumb.png" alt="" />
+									</span>
+									<Link to="/Raora-Panthera">
+										<div class="content">
+											<h2>Raora Panthera</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
 							</section>
 						</div>
 					</div>

@@ -2,22 +2,22 @@ import React, { useRef } from "react";
 import Header from "../../header.js";
 import Footer from "../../footer.js";
 import StreamDisplay from "../../streamDisplay.jsx";
-import { videoList } from "../../VideoResults/videoResultsPromise.js";
+import { videoList } from "../../VideoResults/videoResultsJustice.js";
 
-const resultsArr = videoList.IRyS;
+const resultsArr = videoList.Raora;
 
-class IRyS extends React.Component{
+class Raora extends React.Component{
     render(){
     
       return(
             <div id="wrapper">
 
-				{/* Header */}
-				<Header />
+        {/* Header */}
+        <Header />
 
-				{/* Menu */}
+        {/* Menu */}
 
-				{/* Main */}
+        {/* Main */}
                 <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
 
 
@@ -29,4 +29,4 @@ class IRyS extends React.Component{
 }
 }
 
-export default IRyS
+export default Raora
