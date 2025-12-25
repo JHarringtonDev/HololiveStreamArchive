@@ -73,6 +73,18 @@ class TalentID extends React.Component{
 									</Link>
 								</article>
 
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/anya_melfissa_thumb-2.png.png" alt="Kureiji Ollie" />
+									</span>
+									<Link to="/Anya-Melfissa">
+										<div class="content">
+										<h2>Anya Melfissa</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
 								<article class="style5">
 									<span class="image">
 										<img src="assets/images/Reine.png" alt="Pavolia Reine" />

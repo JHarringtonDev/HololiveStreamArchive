@@ -49,7 +49,7 @@ class TalentJP extends React.Component{
 									</Link>
 								</article>
 
-								<article class="style3">
+								{/* <article class="style3">
 									<span class="image">
 										<img src="assets/images/Yozora-Mel_list_thumb.png" alt="Yozora Mel" />
 									</span>
@@ -59,7 +59,7 @@ class TalentJP extends React.Component{
 											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
 										</div>
 									</Link>
-								</article>
+								</article> */}
 
 								<article class="style4">
 									<span class="image">
@@ -457,6 +457,125 @@ class TalentJP extends React.Component{
 									</Link>
 								</article>
 
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Hiodoshi-Ao_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Hiodoshi-Ao">
+										<div class="content">
+											<h2>Hiodoshi Ao</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+								
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Otonose-Kanade_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Otonose-Kanade">
+										<div class="content">
+											<h2>Otonose Kanade</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Ichijou-Ririka_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Ichijou-Ririka">
+										<div class="content">
+											<h2>Ichijou Ririka</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Juufuutei-Raden_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Juufuutei-Raden">
+										<div class="content">
+											<h2>Juufuutei Raden</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Todoroki-Hajime_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Todoroki-Hajime">
+										<div class="content">
+											<h2>Todoroki Hajime</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Isaki-Riona_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Isaki-Riona">
+										<div class="content">
+											<h2>Isaki Riona</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Koganei-Niko_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Koganei-Niko">
+										<div class="content">
+											<h2>Koganei Niko</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Mizumiya-Su_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Mizumiya-Su	">
+										<div class="content">
+											<h2>Mizumiya Su</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Rindo-Chihaya_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Rindo-Chihaya">
+										<div class="content">
+											<h2>Rindo Chihaya</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Kikirara-Vivi_list_thumb.png" alt="Kazama Iroha" />
+									</span>
+									<Link to="/Kikirara-Vivi">
+										<div class="content">
+											<h2>Kikirara Vivi</h2>
+											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										</div>
+									</Link>
+								</article>
 
 								
 
