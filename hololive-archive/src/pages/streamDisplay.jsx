@@ -1,5 +1,60 @@
 import React from 'react';
 import GameHeader from "./gameHeader.js";
+import Fuse from 'fuse.js'
+
+const fuseOptions = {
+	// isCaseSensitive: false,
+	// includeScore: false,
+	// ignoreDiacritics: false,
+	// shouldSort: true,
+	// includeMatches: false,
+	// findAllMatches: false,
+	// minMatchCharLength: 1,
+	// location: 0,
+	// threshold: 0.6,
+	// distance: 100,
+	// useExtendedSearch: false,
+	// ignoreLocation: false,
+	// ignoreFieldNorm: false,
+	// fieldNormWeight: 1,
+	keys: [
+		"title"
+	]
+};
+
+function searchStreams(results, pattern){
+  const fuse = new Fuse(results, fuseOptions);
+  let resultsArr = results
+  let videoDisplay
+  let partNo = 1
+  videoDisplay = document.querySelector("#results")
+  videoDisplay.innerHTML = ""
+
+  const searchResults = fuse.search(pattern);
+
+  searchResults.sort((a, b) => (a.item.publishedAt > b.item.publishedAt) ? 1 : -1 );
+
+  if(searchResults.length === 0){
+    videoDisplay.innerHTML = "<h3>No results found</h3>"
+    return
+  }else{
+    console.log(searchResults) 
+    searchResults.forEach((arrayElement) => {
+      videoDisplay.innerHTML +=
+      `<article class="style1 videoItem">
+      <a href="https://www.youtube.com/watch?v=${arrayElement.item.videoId}" target="_blank">
+      <span class="image">
+											<img src="${arrayElement.item.thumbnail}" alt="Doom Eternal Part 1" class="videoImg"/>
+										</span>
+											<h2>【Part #${partNo}】</h2>
+										</a>
+                    </article>`
+                    
+                    partNo++
+                  });
+                  
+                }
+}
 
 // let selectionList = document.getElementById("dropdownList")
     function displayGames(results)
@@ -82,29 +137,45 @@ class StreamDisplay extends React.Component {
       <div id="main">
 						<div className="inner">
 							<GameHeader />
-              <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}}>Load Selection</button>
-							{/* <section id="talentBox">
-							<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={() => {displayResults("biohazard HD REMASTER", this.props.results)}}/>
-							<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() => {displayResults("biohazard RE:2", this.props.results)}}/>
-							</section> */}
-              <div class="dropdown">
-  <input
-    hidden=""
-    class="sr-only"
-    name="state-dropdown"
-    id="state-dropdown"
-    type="checkbox"
-  />
-  <label
-    aria-label="dropdown scrollbar"
-    for="state-dropdown"
-    class="trigger"
-  ></label>
+              <div id = "selectionContainer">
+                <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}} >Load Selection</button>
+  							{/* <section id="talentBox">
+  							<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={()  => {displayResults("biohazard HD REMASTER", this.props.results)}}/>
+  							<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() =>  {displayResults("biohazard RE:2", this.props.results)}}/>
+  							</section> */}
+                <div class="dropdown">
+                  <input
+                    hidden=""
+                    class="sr-only"
+                    name="state-dropdown"
+                    id="state-dropdown"
+                    type="checkbox"
+                  />
+                  <label
+                    aria-label="dropdown scrollbar"
+                    for="state-dropdown"
+                    class="trigger"
+                  ></label>
 
-  <ul class="list webkit-scrollbar" role="list" dir="auto">
+                  <ul class="list webkit-scrollbar" role="list" dir="auto">
 
-  </ul>
-</div>
+                  </ul>
+        </div>
+                
+
+        <div class="search">
+          <input type="text" class="search__input" placeholder="Type your text"/>
+            <button class="search__button" onClick={() => {searchStreams(this.props.results, document.querySelector ('.search__input').value)}}>
+              <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+              <g>
+                  <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03  9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.  295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.  365-7.5-7.5z"></path>
+              </g>
+              </svg>
+            </button>
+        </div>
+      </div>
+
+        
 
 
 							<section id="videoList">
