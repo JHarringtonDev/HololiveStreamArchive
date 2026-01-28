@@ -20,9 +20,8 @@ class TalentID extends React.Component{
                 <div id="main">
 						<div class="inner">
 							<header>
-								<h1>This is Phantom, a free, fully responsive site<br />
-								template designed by <Link to="http://html5up.net">HTML5 UP</Link>.</h1>
-								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+								<h1>Hololive Indonesia</h1>
+								<p>Since 2020, HoloID's 9 members have provided 1000s of hours of entertainment for Indonesian, English and Japanese fans around the world.</p>
 							</header>
 							<section class="tiles">
 								<article class="style1">
@@ -32,7 +31,7 @@ class TalentID extends React.Component{
 									<Link to="/Ayunda-Risu">
 										<div class="content">
 										<h2>Ayunda Risu</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -44,7 +43,7 @@ class TalentID extends React.Component{
 									<Link to="/Moona-Hoshinova">
 										<div class="content">
 										<h2>Moona Hoshinova</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -56,7 +55,7 @@ class TalentID extends React.Component{
 									<Link to="/Airani-Iofifteen">
 										<div class="content">
 										<h2>Airani Iofifteen</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -68,7 +67,7 @@ class TalentID extends React.Component{
 									<Link to="/Kureiji-Ollie">
 										<div class="content">
 										<h2>Kureiji Ollie</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -80,7 +79,7 @@ class TalentID extends React.Component{
 									<Link to="/Anya-Melfissa">
 										<div class="content">
 										<h2>Anya Melfissa</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -92,7 +91,7 @@ class TalentID extends React.Component{
 									<Link to="/Pavolia-Reine">
 										<div class="content">
 										<h2>Pavolia Reine</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -104,7 +103,7 @@ class TalentID extends React.Component{
 									<Link to="/Vestia-Zeta">
 										<div class="content">
 										<h2>Vestia Zeta</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -116,7 +115,7 @@ class TalentID extends React.Component{
 									<Link to="/Kaela-Kovalskia">
 										<div class="content">
 										<h2>Kaela Kovalskia</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
@@ -128,7 +127,7 @@ class TalentID extends React.Component{
 									<Link to="/Kobo-Kanaeru">
 										<div class="content">
 										<h2>Kobo Kanaeru</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive Indonesia</p>
 										</div>
 									</Link>
 								</article>
