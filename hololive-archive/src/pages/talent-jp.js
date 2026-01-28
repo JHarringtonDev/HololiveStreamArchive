@@ -32,7 +32,7 @@ class TalentJP extends React.Component{
 									<Link to="/Tokino-Sora">
 										<div class="content">
 										<h2>Tokino Sora</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 0</p>
 										</div>
 									</Link>
 								</article>
@@ -44,7 +44,44 @@ class TalentJP extends React.Component{
 									<Link to="/Roboco-san">
 										<div class="content">
 										<h2>Roboco-san</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 0</p>
+										</div>
+									</Link>
+								</article>
+
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Hoshimachi-Suisei_list_thumb-1.png" alt="Hoshimachi Suisei" />
+									</span>
+									<Link to="/Hoshimachi-Suisei">
+										<div class="content">
+										<h2>Hoshimachi Suisei</h2>
+											<p>Hololive: Generation 0</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/Sakura-Miko_thumb.png" alt="Sakura Miko" />
+									</span>
+									<Link to="/Sakura-Miko">
+										<div class="content">
+										<h2>Sakura Miko</h2>
+											<p>Hololive: Generation 0</p>
+										</div>
+									</Link>
+								</article>
+
+								<article class="style4">
+									<span class="image">
+										<img src="assets/images/AZKi_list_thumb.png" alt="AZKi" />
+									</span>
+									<Link to="/AZKi">
+										<div class="content">
+										<h2>AZKi</h2>
+											<p>Hololive: Generation 0</p>
 										</div>
 									</Link>
 								</article>
@@ -68,7 +105,7 @@ class TalentJP extends React.Component{
 									<Link to="/Aki-Rosenthal">
 										<div class="content">
 										<h2>Aki Rosenthal</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 1</p>
 										</div>
 									</Link>
 								</article>
@@ -80,7 +117,7 @@ class TalentJP extends React.Component{
 									<Link to="/Akai-Haato">
 										<div class="content">
 										<h2>Akai Haato</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 1</p>
 										</div>
 									</Link>
 								</article>
@@ -92,7 +129,7 @@ class TalentJP extends React.Component{
 									<Link to="/Shirakami-Fubuki">
 										<div class="content">
 										<h2>Shirakami Fubuki</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 1 & GAMERS</p>
 										</div>
 									</Link>
 								</article>
@@ -104,7 +141,7 @@ class TalentJP extends React.Component{
 									<Link to="/Natsuiro-Matsuri">
 										<div class="content">
 										<h2>Natsuiro Matsuri</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 1</p>
 										</div>
 									</Link>
 								</article>
@@ -116,7 +153,7 @@ class TalentJP extends React.Component{
 									<Link to="/Minato-Aqua">
 										<div class="content">
 										<h2>Minato Aqua</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 2</p>
 										</div>
 									</Link>
 								</article>
@@ -128,7 +165,7 @@ class TalentJP extends React.Component{
 									<Link to="/Murasaki-Shion">
 										<div class="content">
 										<h2>Murasaki Shion</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 2</p>
 										</div>
 									</Link>
 								</article>
@@ -140,7 +177,7 @@ class TalentJP extends React.Component{
 									<Link to="/Nakiri-Ayame">
 										<div class="content">
 										<h2>Nakiri Ayame</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 2</p>
 										</div>
 									</Link>
 								</article>
@@ -152,7 +189,7 @@ class TalentJP extends React.Component{
 									<Link to="/Yuzuki-Choco">
 										<div class="content">
 										<h2>Yuzuki Choco</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 2</p>
 										</div>
 									</Link>
 								</article>
@@ -164,19 +201,7 @@ class TalentJP extends React.Component{
 									<Link to="/Oozora-Subaru">
 										<div class="content">
 										<h2>Oozora Subaru</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</Link>
-								</article>
-
-								<article class="style4">
-									<span class="image">
-										<img src="assets/images/AZKi_list_thumb.png" alt="AZKi" />
-									</span>
-									<Link to="/AZKi">
-										<div class="content">
-										<h2>AZKi</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 2</p>
 										</div>
 									</Link>
 								</article>
@@ -188,19 +213,7 @@ class TalentJP extends React.Component{
 									<Link to="/Ookami-Mio">
 										<div class="content">
 										<h2>Ookami Mio</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</Link>
-								</article>
-
-								<article class="style4">
-									<span class="image">
-										<img src="assets/images/Sakura-Miko_thumb.png" alt="Sakura Miko" />
-									</span>
-									<Link to="/Sakura-Miko">
-										<div class="content">
-										<h2>Sakura Miko</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: GAMERS</p>
 										</div>
 									</Link>
 								</article>
@@ -212,7 +225,7 @@ class TalentJP extends React.Component{
 									<Link to="/Nekomata-Okayu">
 										<div class="content">
 										<h2>Nekomata Okayu</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: GAMERS</p>
 										</div>
 									</Link>
 								</article>
@@ -224,19 +237,7 @@ class TalentJP extends React.Component{
 									<Link to="/Inugami-Korone">
 										<div class="content">
 										<h2>Inugami Korone</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</Link>
-								</article>
-
-								<article class="style4">
-									<span class="image">
-										<img src="assets/images/Hoshimachi-Suisei_list_thumb-1.png" alt="Hoshimachi Suisei" />
-									</span>
-									<Link to="/Hoshimachi-Suisei">
-										<div class="content">
-										<h2>Hoshimachi Suisei</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: GAMERS</p>
 										</div>
 									</Link>
 								</article>
@@ -248,7 +249,7 @@ class TalentJP extends React.Component{
 									<Link to="/Usada-Pekora">
 										<div class="content">
 										<h2>Usada Pekora</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 3</p>
 										</div>
 									</Link>
 								</article>
@@ -260,7 +261,7 @@ class TalentJP extends React.Component{
 									<Link to="/Shiranui-Flare">
 										<div class="content">
 										<h2>Shiranui Flare</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 3</p>
 										</div>
 									</Link>
 								</article>
@@ -272,7 +273,7 @@ class TalentJP extends React.Component{
 									<Link to="/Shirogane-Noel">
 										<div class="content">
 										<h2>Shirogane Noel</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 3</p>
 										</div>
 									</Link>
 								</article>
@@ -284,7 +285,7 @@ class TalentJP extends React.Component{
 									<Link to="/Houshou-Marine">
 										<div class="content">
 										<h2>Houshou Marine</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 3</p>
 										</div>
 									</Link>
 								</article>
@@ -296,7 +297,7 @@ class TalentJP extends React.Component{
 									<Link to="/Amane-Kanata">
 										<div class="content">
 										<h2>Amane Kanata</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 4</p>
 										</div>
 									</Link>
 								</article>
@@ -308,7 +309,7 @@ class TalentJP extends React.Component{
 									<Link to="/Tsunomaki-Watame">
 										<div class="content">
 										<h2>Tsunomaki Watame</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 4</p>
 										</div>
 									</Link>
 								</article>
@@ -320,7 +321,7 @@ class TalentJP extends React.Component{
 									<Link to="/Tokoyami-Towa">
 										<div class="content">
 										<h2>Tokoyami Towa</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 4</p>
 										</div>
 									</Link>
 								</article>
@@ -332,7 +333,7 @@ class TalentJP extends React.Component{
 									<Link to="/Himemori-Luna">
 										<div class="content">
 										<h2>Himemori Luna</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 4</p>
 										</div>
 									</Link>
 								</article>
@@ -344,7 +345,7 @@ class TalentJP extends React.Component{
 									<Link to="/Kiryu-Coco">
 										<div class="content">
 										<h2>Kiryu Coco</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 4</p>
 										</div>
 									</Link>
 								</article>
@@ -356,7 +357,7 @@ class TalentJP extends React.Component{
 									<Link to="/Yukihana-Lamy">
 										<div class="content">
 										<h2>Yukihana Lamy</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 5</p>
 										</div>
 									</Link>
 								</article>
@@ -368,7 +369,7 @@ class TalentJP extends React.Component{
 									<Link to="/Momosuzu-Nene">
 										<div class="content">
 										<h2>Momosuzu Nene</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 5</p>
 										</div>
 									</Link>
 								</article>
@@ -378,9 +379,9 @@ class TalentJP extends React.Component{
 										<img src="assets/images/Shishiro-Botan_list_thumb.png" alt="Shishiro Botan" />
 									</span>
 									<Link to="/Shishiro-Botan">
-										<h2>Shishiro Botan</h2>
 										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+										<h2>Shishiro Botan</h2>
+											<p>Hololive: Generation 5</p>
 										</div>
 									</Link>
 								</article>
@@ -392,7 +393,7 @@ class TalentJP extends React.Component{
 									<Link to="/Omaru-Polka">
 										<div class="content">
 										<h2>Omaru Polka</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: Generation 5</p>
 										</div>
 									</Link>
 								</article>
@@ -404,7 +405,7 @@ class TalentJP extends React.Component{
 									<Link to="/Laplus-Darknesss">
 										<div class="content">
 										<h2>La+ Darknesss</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: holoX</p>
 										</div>
 									</Link>
 								</article>
@@ -416,7 +417,7 @@ class TalentJP extends React.Component{
 									<Link to="/Takane-Lui">
 										<div class="content">
 										<h2>Takane Lui</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: holoX</p>
 										</div>
 									</Link>
 								</article>
@@ -428,7 +429,7 @@ class TalentJP extends React.Component{
 									<Link to="/Hakui-Koyori">	
 										<div class="content">
 											<h2>Hakui Koyori</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: holoX</p>
 										</div>
 									</Link>
 								</article>
@@ -440,7 +441,7 @@ class TalentJP extends React.Component{
 									<Link to="/Sakamata-Chloe">
 										<div class="content">
 											<h2>Sakamata Chloe</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: holoX</p>
 										</div>
 									</Link>
 								</article>
@@ -452,7 +453,7 @@ class TalentJP extends React.Component{
 									<Link to="/Kazama-Iroha">
 										<div class="content">
 											<h2>Kazama Iroha</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive: holoX</p>
 										</div>
 									</Link>
 								</article>
@@ -464,7 +465,7 @@ class TalentJP extends React.Component{
 									<Link to="/Hiodoshi-Ao">
 										<div class="content">
 											<h2>Hiodoshi Ao</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: ReGLOSS</p>
 										</div>
 									</Link>
 								</article>
@@ -476,7 +477,7 @@ class TalentJP extends React.Component{
 									<Link to="/Otonose-Kanade">
 										<div class="content">
 											<h2>Otonose Kanade</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: ReGLOSS</p>
 										</div>
 									</Link>
 								</article>
@@ -488,7 +489,7 @@ class TalentJP extends React.Component{
 									<Link to="/Ichijou-Ririka">
 										<div class="content">
 											<h2>Ichijou Ririka</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: ReGLOSS</p>
 										</div>
 									</Link>
 								</article>
@@ -500,7 +501,7 @@ class TalentJP extends React.Component{
 									<Link to="/Juufuutei-Raden">
 										<div class="content">
 											<h2>Juufuutei Raden</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: ReGLOSS</p>
 										</div>
 									</Link>
 								</article>
@@ -512,7 +513,7 @@ class TalentJP extends React.Component{
 									<Link to="/Todoroki-Hajime">
 										<div class="content">
 											<h2>Todoroki Hajime</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: ReGLOSS</p>
 										</div>
 									</Link>
 								</article>
@@ -524,7 +525,7 @@ class TalentJP extends React.Component{
 									<Link to="/Isaki-Riona">
 										<div class="content">
 											<h2>Isaki Riona</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: FLOW GLOW</p>
 										</div>
 									</Link>
 								</article>
@@ -536,7 +537,7 @@ class TalentJP extends React.Component{
 									<Link to="/Koganei-Niko">
 										<div class="content">
 											<h2>Koganei Niko</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: FLOW GLOW</p>
 										</div>
 									</Link>
 								</article>
@@ -548,7 +549,7 @@ class TalentJP extends React.Component{
 									<Link to="/Mizumiya-Su	">
 										<div class="content">
 											<h2>Mizumiya Su</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: FLOW GLOW</p>
 										</div>
 									</Link>
 								</article>
@@ -560,7 +561,7 @@ class TalentJP extends React.Component{
 									<Link to="/Rindo-Chihaya">
 										<div class="content">
 											<h2>Rindo Chihaya</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: FLOW GLOW</p>
 										</div>
 									</Link>
 								</article>
@@ -572,7 +573,7 @@ class TalentJP extends React.Component{
 									<Link to="/Kikirara-Vivi">
 										<div class="content">
 											<h2>Kikirara Vivi</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>Hololive DEV_IS: FLOW GLOW</p>
 										</div>
 									</Link>
 								</article>
