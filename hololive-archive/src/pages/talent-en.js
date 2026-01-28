@@ -49,7 +49,7 @@ class TalentEN extends React.Component{
 									<Link to="/Mori-Calliope">
 										<div class="content">
 											<h2>Mori Calliope</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
 								</article>
@@ -60,7 +60,7 @@ class TalentEN extends React.Component{
 									<Link to="../Takanashi-Kiara">
 										<div class="content">
 											<h2>Takanashi Kiara</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
 								</article>
@@ -71,7 +71,7 @@ class TalentEN extends React.Component{
 									<Link to="../Ninomae-Inanis">
 										<div class="content">
 											<h2>Ninomae Ina'Nis</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
 								</article>
@@ -82,7 +82,7 @@ class TalentEN extends React.Component{
 									<Link to="../Gawr-Gura">
 										<div class="content">
 											<h2>Gawr Gura</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
 								</article>
@@ -93,7 +93,7 @@ class TalentEN extends React.Component{
 									<Link to="/Watson-Amelia">
 										<div class="content">
 											<h2>Amelia Watson</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
 								</article>
@@ -104,7 +104,7 @@ class TalentEN extends React.Component{
 									<Link to="/IRyS">
 										<div class="content">
 											<h2>IRyS</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
 								</article>
@@ -115,7 +115,7 @@ class TalentEN extends React.Component{
 									<Link to="/Tsukumo-Sana">
 										<div class="content">
 											<h2>Tsukumo Sana</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Council-</p>
 										</div>
 									</Link>
 								</article>
@@ -126,7 +126,7 @@ class TalentEN extends React.Component{
 									<Link to="/Ceres-Fauna">
 										<div class="content">
 											<h2>Ceres Fauna</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
 								</article>
@@ -137,7 +137,7 @@ class TalentEN extends React.Component{
 									<Link to="../Ouro-Kronii">
 										<div class="content">
 											<h2>Ouro Kronii</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
 								</article>
@@ -148,7 +148,7 @@ class TalentEN extends React.Component{
 									<Link to="/Nanashi-Mumei">
 										<div class="content">
 											<h2>Nanashi Mumei</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
 								</article>
@@ -159,7 +159,7 @@ class TalentEN extends React.Component{
 									<Link to="/Hakos-Baelz">
 										<div class="content">
 											<h2>Hakos Baelz</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
 								</article>
@@ -170,7 +170,7 @@ class TalentEN extends React.Component{
 									<Link to="/Novella-Shiori">
 										<div class="content">
 											<h2>Shiori Novella</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
 								</article>
@@ -181,7 +181,7 @@ class TalentEN extends React.Component{
 									<Link to="/Koseki-Bijou">
 										<div class="content">
 											<h2>Koseki Bijou</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
 								</article>
@@ -192,7 +192,7 @@ class TalentEN extends React.Component{
 									<Link to="/Ravencroft-Nerissa">
 										<div class="content">
 											<h2>Nerissa Ravencroft</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
 								</article>
@@ -203,7 +203,7 @@ class TalentEN extends React.Component{
 									<Link to="/FUWAMOCO">
 										<div class="content">
 											<h2>FUWAMOCO</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
 								</article>
@@ -214,7 +214,7 @@ class TalentEN extends React.Component{
 									<Link to="/Elizabeth-Bloodflame">
 										<div class="content">
 											<h2>Elizabeth Bloodflame</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
 								</article>
@@ -225,7 +225,7 @@ class TalentEN extends React.Component{
 									<Link to="/Gigi-Murin">
 										<div class="content">
 											<h2>Gigi Murin</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
 								</article>
@@ -236,7 +236,7 @@ class TalentEN extends React.Component{
 									<Link to="/Cecilia-Immergreen">
 										<div class="content">
 											<h2>Cecilia Immergreen</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
 								</article>
@@ -247,7 +247,7 @@ class TalentEN extends React.Component{
 									<Link to="/Raora-Panthera">
 										<div class="content">
 											<h2>Raora Panthera</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
 								</article>
