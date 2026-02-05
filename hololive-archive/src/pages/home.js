@@ -29,35 +29,24 @@ class Home extends React.Component{
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="assets/images/HoloJP.png" alt="" />
+										<img src="assets/images/hololive.png" alt="Japanese Branch" />
 									</span>
 									<Link to="/HoloJP">
-										<div class="content">
-											<h2>Japanese Branch</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
+
 									</Link>
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="assets/images/HoloEN.png" alt="" />
+										<img src="assets/images/hololiveEnglish.png" alt="English Branch" />
 									</span>
 									<Link to="/HoloEN">
-										<div class="content">
-											<h2>English Branch</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
 									</Link>
 								</article>
 								<article class="style3">
 									<span class="image">
-										<img src="assets/images/HoloID.png" alt="" />
+										<img src="assets/images/hololiveIndo.png" alt="Indonesian Branch" />
 									</span>
 									<Link to="/HoloID">
-										<div class="content">
-											<h2>Indonesian Branch</h2>
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
 									</Link>
 								</article>
 								
