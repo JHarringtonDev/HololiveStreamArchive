@@ -18,7 +18,7 @@ class Amelia extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Watson Amelia" results={resultsArr} />
+                <StreamDisplay talentName="Amelia Watson" results={resultsArr} />
 
 
         {/* Footer */}

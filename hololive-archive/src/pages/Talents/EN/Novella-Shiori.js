@@ -18,7 +18,7 @@ class Shiori extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Novella Shiori" results={resultsArr} />
+                <StreamDisplay talentName="Shiori Novella" results={resultsArr} />
 
 
         {/* Footer */}

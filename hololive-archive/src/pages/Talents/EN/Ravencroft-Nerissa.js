@@ -18,7 +18,7 @@ class Nerissa extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Ravencroft Nerissa" results={resultsArr} />
+                <StreamDisplay talentName="Nerissa Ravencroft" results={resultsArr} />
 
 
         {/* Footer */}
