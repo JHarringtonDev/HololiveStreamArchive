@@ -131,6 +131,15 @@ function searchStreams(results, pattern){
             } )
         }
 
+// const searchButton = document.querySelector('.search__button')
+document.addEventListener('keyup', function(e) {
+  e.preventDefault()
+  if (e.key === "Enter") {
+    document.querySelector('.search__button').click()
+  }
+}
+)
+
 class StreamDisplay extends React.Component {
   render() {
     return (
