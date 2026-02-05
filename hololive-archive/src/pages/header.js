@@ -11,10 +11,11 @@ class Header extends React.Component{
 						<div className="inner">
 
 							{/* <!-- Logo --> */}
+							<div className="logo">
 								<Link to= "/Home">
-									<span className="symbol"><img src="assets/images/logo.svg" alt="" /></span><span className="title">Home</span>
+									<span className="symbol"><img src="assets/images/HoloArchiveFolder.png" alt="" /></span><span className="title">Home</span>
 								</Link>
-
+							</div>
 							{/* <!-- Nav --> */}
 								<nav>
 									<ul>
