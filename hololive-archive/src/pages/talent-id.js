@@ -30,10 +30,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Ayunda-Risu">
 										<div class="content">
-										<h2>Ayunda Risu</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Ayunda Risu</h2>
 								</article>
 
 								<article class="style2">
@@ -42,10 +41,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Moona-Hoshinova">
 										<div class="content">
-										<h2>Moona Hoshinova</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Moona Hoshinova</h2>
 								</article>
 
 								<article class="style3">
@@ -54,10 +52,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Airani-Iofifteen">
 										<div class="content">
-										<h2>Airani Iofifteen</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Airani Iofifteen</h2>
 								</article>
 
 								<article class="style4">
@@ -66,10 +63,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Kureiji-Ollie">
 										<div class="content">
-										<h2>Kureiji Ollie</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Kureiji Ollie</h2>
 								</article>
 
 								<article class="style4">
@@ -78,10 +74,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Anya-Melfissa">
 										<div class="content">
-										<h2>Anya Melfissa</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Anya Melfissa</h2>
 								</article>
 
 								<article class="style5">
@@ -90,10 +85,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Pavolia-Reine">
 										<div class="content">
-										<h2>Pavolia Reine</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Pavolia Reine</h2>
 								</article>
 
 								<article class="style5">
@@ -102,10 +96,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Vestia-Zeta">
 										<div class="content">
-										<h2>Vestia Zeta</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Vestia Zeta</h2>
 								</article>
 								
 								<article class="style5">
@@ -114,10 +107,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Kaela-Kovalskia">
 										<div class="content">
-										<h2>Kaela Kovalskia</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Kaela Kovalskia</h2>
 								</article>
 								
 								<article class="style5">
@@ -126,10 +118,9 @@ class TalentID extends React.Component{
 									</span>
 									<Link to="/Kobo-Kanaeru">
 										<div class="content">
-										<h2>Kobo Kanaeru</h2>
-											<p>hololive Indonesia</p>
 										</div>
 									</Link>
+										<h2>Kobo Kanaeru</h2>
 								</article>
 							</section>
 						</div>

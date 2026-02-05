@@ -3637,3 +3637,9 @@ input, select, textarea {
 #archiveLogo {
 	width: 5%;
 }
+.tiles article h2{
+	padding-top: 2rem;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}

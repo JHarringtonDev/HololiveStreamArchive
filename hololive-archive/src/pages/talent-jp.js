@@ -30,10 +30,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Tokino-Sora">
 										<div class="content">
-										<h2>Tokino Sora</h2>
-											<p>hololive Generation 0</p>
 										</div>
 									</Link>
+										<h2>Tokino Sora</h2>
 								</article>
 
 								<article class="style2">
@@ -42,10 +41,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Roboco-san">
 										<div class="content">
-										<h2>Roboco-san</h2>
-											<p>hololive Generation 0</p>
 										</div>
 									</Link>
+										<h2>Roboco-san</h2>
 								</article>
 
 
@@ -55,10 +53,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Hoshimachi-Suisei">
 										<div class="content">
-										<h2>Hoshimachi Suisei</h2>
-											<p>hololive Generation 0</p>
 										</div>
 									</Link>
+										<h2>Hoshimachi Suisei</h2>
 								</article>
 
 								<article class="style4">
@@ -67,10 +64,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Sakura-Miko">
 										<div class="content">
-										<h2>Sakura Miko</h2>
-											<p>hololive Generation 0</p>
 										</div>
 									</Link>
+										<h2>Sakura Miko</h2>
 								</article>
 
 								<article class="style4">
@@ -79,10 +75,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/AZKi">
 										<div class="content">
-										<h2>AZKi</h2>
-											<p>hololive Generation 0</p>
 										</div>
 									</Link>
+										<h2>AZKi</h2>
 								</article>
 
 								{/* <article class="style3">
@@ -103,10 +98,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Aki-Rosenthal">
 										<div class="content">
-										<h2>Aki Rosenthal</h2>
-											<p>hololive 1st Generation</p>
 										</div>
 									</Link>
+										<h2>Aki Rosenthal</h2>
 								</article>
 
 								<article class="style5">
@@ -115,10 +109,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Akai-Haato">
 										<div class="content">
-										<h2>Akai Haato</h2>
-											<p>hololive 1st Generation</p>
 										</div>
 									</Link>
+										<h2>Akai Haato</h2>
 								</article>
 
 								<article class="style6">
@@ -127,10 +120,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Shirakami-Fubuki">
 										<div class="content">
-										<h2>Shirakami Fubuki</h2>
-											<p>hololive 1st Generation & GAMERS</p>
 										</div>
 									</Link>
+										<h2>Shirakami Fubuki</h2>
 								</article>
 
 								<article class="style2">
@@ -139,10 +131,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Natsuiro-Matsuri">
 										<div class="content">
-										<h2>Natsuiro Matsuri</h2>
-											<p>hololive 1st Generation</p>
 										</div>
 									</Link>
+										<h2>Natsuiro Matsuri</h2>
 								</article>
 
 								<article class="style3">
@@ -151,10 +142,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Minato-Aqua">
 										<div class="content">
-										<h2>Minato Aqua</h2>
-											<p>hololive 2nd Generation</p>
 										</div>
 									</Link>
+										<h2>Minato Aqua</h2>
 								</article>
 
 								<article class="style1">
@@ -163,10 +153,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Murasaki-Shion">
 										<div class="content">
-										<h2>Murasaki Shion</h2>
-											<p>hololive 2nd Generation</p>
 										</div>
 									</Link>
+										<h2>Murasaki Shion</h2>
 								</article>
 
 								<article class="style5">
@@ -175,10 +164,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Nakiri-Ayame">
 										<div class="content">
-										<h2>Nakiri Ayame</h2>
-											<p>hololive 2nd Generation</p>
 										</div>
 									</Link>
+										<h2>Nakiri Ayame</h2>
 								</article>
 
 								<article class="style6">
@@ -187,10 +175,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Yuzuki-Choco">
 										<div class="content">
-										<h2>Yuzuki Choco</h2>
-											<p>hololive 2nd Generation</p>
 										</div>
 									</Link>
+										<h2>Yuzuki Choco</h2>
 								</article>
 
 								<article class="style4">
@@ -199,10 +186,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Oozora-Subaru">
 										<div class="content">
-										<h2>Oozora Subaru</h2>
-											<p>hololive 2nd Generation</p>
 										</div>
 									</Link>
+										<h2>Oozora Subaru</h2>
 								</article>
 
 								<article class="style4">
@@ -211,10 +197,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Ookami-Mio">
 										<div class="content">
-										<h2>Ookami Mio</h2>
-											<p>hololive GAMERS</p>
 										</div>
 									</Link>
+										<h2>Ookami Mio</h2>
 								</article>
 
 								<article class="style4">
@@ -223,10 +208,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Nekomata-Okayu">
 										<div class="content">
-										<h2>Nekomata Okayu</h2>
-											<p>hololive GAMERS</p>
 										</div>
 									</Link>
+										<h2>Nekomata Okayu</h2>
 								</article>
 
 								<article class="style4">
@@ -235,10 +219,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Inugami-Korone">
 										<div class="content">
-										<h2>Inugami Korone</h2>
-											<p>hololive GAMERS</p>
 										</div>
 									</Link>
+										<h2>Inugami Korone</h2>
 								</article>
 
 								<article class="style4">
@@ -247,10 +230,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Usada-Pekora">
 										<div class="content">
-										<h2>Usada Pekora</h2>
-											<p>hololive 3rd Generation</p>
 										</div>
 									</Link>
+										<h2>Usada Pekora</h2>
 								</article>
 
 								<article class="style4">
@@ -259,10 +241,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Shiranui-Flare">
 										<div class="content">
-										<h2>Shiranui Flare</h2>
-											<p>hololive 3rd Generation</p>
 										</div>
 									</Link>
+										<h2>Shiranui Flare</h2>
 								</article>
 
 								<article class="style4">
@@ -271,10 +252,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Shirogane-Noel">
 										<div class="content">
-										<h2>Shirogane Noel</h2>
-											<p>hololive 3rd Generation</p>
 										</div>
 									</Link>
+										<h2>Shirogane Noel</h2>
 								</article>
 
 								<article class="style4">
@@ -283,10 +263,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Houshou-Marine">
 										<div class="content">
-										<h2>Houshou Marine</h2>
-											<p>hololive 3rd Generation</p>
 										</div>
 									</Link>
+										<h2>Houshou Marine</h2>
 								</article>
 
 								<article class="style4">
@@ -295,10 +274,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Amane-Kanata">
 										<div class="content">
-										<h2>Amane Kanata</h2>
-											<p>hololive 4th Generation</p>
 										</div>
 									</Link>
+										<h2>Amane Kanata</h2>
 								</article>
 
 								<article class="style4">
@@ -307,10 +285,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Tsunomaki-Watame">
 										<div class="content">
-										<h2>Tsunomaki Watame</h2>
-											<p>hololive 4th Generation</p>
 										</div>
 									</Link>
+										<h2>Tsunomaki Watame</h2>
 								</article>
 
 								<article class="style4">
@@ -319,10 +296,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Tokoyami-Towa">
 										<div class="content">
-										<h2>Tokoyami Towa</h2>
-											<p>hololive 4th Generation</p>
 										</div>
 									</Link>
+										<h2>Tokoyami Towa</h2>
 								</article>
 
 								<article class="style4">
@@ -331,10 +307,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Himemori-Luna">
 										<div class="content">
-										<h2>Himemori Luna</h2>
-											<p>hololive 4th Generation</p>
 										</div>
 									</Link>
+										<h2>Himemori Luna</h2>
 								</article>
 
 								<article class="style4">
@@ -343,10 +318,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Kiryu-Coco">
 										<div class="content">
-										<h2>Kiryu Coco</h2>
-											<p>hololive 4th Generation</p>
 										</div>
 									</Link>
+										<h2>Kiryu Coco</h2>
 								</article>
 
 								<article class="style4">
@@ -355,10 +329,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Yukihana-Lamy">
 										<div class="content">
-										<h2>Yukihana Lamy</h2>
-											<p>hololive 5th Generation</p>
 										</div>
 									</Link>
+										<h2>Yukihana Lamy</h2>
 								</article>
 
 								<article class="style4">
@@ -367,10 +340,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Momosuzu-Nene">
 										<div class="content">
-										<h2>Momosuzu Nene</h2>
-											<p>hololive 5th Generation</p>
 										</div>
 									</Link>
+										<h2>Momosuzu Nene</h2>
 								</article>
 
 								<article class="style4">
@@ -379,10 +351,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Shishiro-Botan">
 										<div class="content">
-										<h2>Shishiro Botan</h2>
-											<p>hololive 5th Generation</p>
 										</div>
 									</Link>
+										<h2>Shishiro Botan</h2>
 								</article>
 
 								<article class="style4">
@@ -391,10 +362,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Omaru-Polka">
 										<div class="content">
-										<h2>Omaru Polka</h2>
-											<p>hololive 5th Generation</p>
 										</div>
 									</Link>
+										<h2>Omaru Polka</h2>
 								</article>
 
 								<article class="style4">
@@ -403,10 +373,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Laplus-Darknesss">
 										<div class="content">
-										<h2>La+ Darknesss</h2>
-											<p>holoX</p>
 										</div>
 									</Link>
+										<h2>La+ Darknesss</h2>
 								</article>
 
 								<article class="style4">
@@ -415,10 +384,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Takane-Lui">
 										<div class="content">
-										<h2>Takane Lui</h2>
-											<p>holoX</p>
 										</div>
 									</Link>
+										<h2>Takane Lui</h2>
 								</article>
 
 								<article class="style4">
@@ -427,10 +395,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Hakui-Koyori">	
 										<div class="content">
-											<h2>Hakui Koyori</h2>
-											<p>holoX</p>
 										</div>
 									</Link>
+											<h2>Hakui Koyori</h2>
 								</article>
 
 								<article class="style4">
@@ -439,10 +406,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Sakamata-Chloe">
 										<div class="content">
-											<h2>Sakamata Chloe</h2>
-											<p>holoX</p>
 										</div>
 									</Link>
+											<h2>Sakamata Chloe</h2>
 								</article>
 
 								<article class="style4">
@@ -451,10 +417,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Kazama-Iroha">
 										<div class="content">
-											<h2>Kazama Iroha</h2>
-											<p>holoX</p>
 										</div>
 									</Link>
+											<h2>Kazama Iroha</h2>
 								</article>
 
 								<article class="style4">
@@ -463,10 +428,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Hiodoshi-Ao">
 										<div class="content">
-											<h2>Hiodoshi Ao</h2>
-											<p>ReGLOSS</p>
 										</div>
 									</Link>
+											<h2>Hiodoshi Ao</h2>
 								</article>
 								
 								<article class="style4">
@@ -475,10 +439,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Otonose-Kanade">
 										<div class="content">
-											<h2>Otonose Kanade</h2>
-											<p>ReGLOSS</p>
 										</div>
 									</Link>
+											<h2>Otonose Kanade</h2>
 								</article>
 
 								<article class="style4">
@@ -487,10 +450,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Ichijou-Ririka">
 										<div class="content">
-											<h2>Ichijou Ririka</h2>
-											<p>ReGLOSS</p>
 										</div>
 									</Link>
+											<h2>Ichijou Ririka</h2>
 								</article>
 
 								<article class="style4">
@@ -499,10 +461,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Juufuutei-Raden">
 										<div class="content">
-											<h2>Juufuutei Raden</h2>
-											<p>ReGLOSS</p>
 										</div>
 									</Link>
+											<h2>Juufuutei Raden</h2>
 								</article>
 
 								<article class="style4">
@@ -511,10 +472,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Todoroki-Hajime">
 										<div class="content">
-											<h2>Todoroki Hajime</h2>
-											<p>ReGLOSS</p>
 										</div>
 									</Link>
+											<h2>Todoroki Hajime</h2>
 								</article>
 
 								<article class="style4">
@@ -523,10 +483,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Isaki-Riona">
 										<div class="content">
-											<h2>Isaki Riona</h2>
-											<p>FLOW GLOW</p>
 										</div>
 									</Link>
+											<h2>Isaki Riona</h2>
 								</article>
 
 								<article class="style4">
@@ -535,10 +494,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Koganei-Niko">
 										<div class="content">
-											<h2>Koganei Niko</h2>
-											<p>FLOW GLOW</p>
 										</div>
 									</Link>
+											<h2>Koganei Niko</h2>
 								</article>
 
 								<article class="style4">
@@ -547,10 +505,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Mizumiya-Su	">
 										<div class="content">
-											<h2>Mizumiya Su</h2>
-											<p>FLOW GLOW</p>
 										</div>
 									</Link>
+											<h2>Mizumiya Su</h2>
 								</article>
 
 								<article class="style4">
@@ -559,10 +516,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Rindo-Chihaya">
 										<div class="content">
-											<h2>Rindo Chihaya</h2>
-											<p>FLOW GLOW</p>
 										</div>
 									</Link>
+											<h2>Rindo Chihaya</h2>
 								</article>
 
 								<article class="style4">
@@ -571,10 +527,9 @@ class TalentJP extends React.Component{
 									</span>
 									<Link to="/Kikirara-Vivi">
 										<div class="content">
-											<h2>Kikirara Vivi</h2>
-											<p>FLOW GLOW</p>
 										</div>
 									</Link>
+											<h2>Kikirara Vivi</h2>
 								</article>
 
 								

@@ -46,11 +46,11 @@ class TalentEN extends React.Component{
 										<img src="assets/images/mori-calliope.png" alt="Calliope Mori" />
 									</span>
 									<Link to="/Mori-Calliope">
-										<div class="content">
-											<h2>Mori Calliope</h2>
+										{/* <div class="content">
 											<p>hololive English -Myth-</p>
-										</div>
+										</div> */}
 									</Link>
+											<h2>Mori Calliope</h2>
 								</article>
 								<article class="style2">
 									<span class="image">
@@ -58,10 +58,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="../Takanashi-Kiara">
 										<div class="content">
-											<h2>Takanashi Kiara</h2>
-											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
+											<h2>Takanashi Kiara</h2>
 								</article>
 								<article class="style3">
 									<span class="image">
@@ -69,10 +68,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="../Ninomae-Inanis">
 										<div class="content">
-											<h2>Ninomae Ina'Nis</h2>
-											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
+											<h2>Ninomae Ina'Nis</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -80,10 +78,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="../Gawr-Gura">
 										<div class="content">
-											<h2>Gawr Gura</h2>
-											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
+											<h2>Gawr Gura</h2>
 								</article>
 								<article class="style5">
 									<span class="image">
@@ -91,10 +88,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Watson-Amelia">
 										<div class="content">
-											<h2>Amelia Watson</h2>
-											<p>hololive English -Myth-</p>
 										</div>
 									</Link>
+											<h2>Amelia Watson</h2>
 								</article>
 								<article class="style6">
 									<span class="image">
@@ -102,10 +98,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/IRyS">
 										<div class="content">
-											<h2>IRyS</h2>
-											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
+											<h2>IRyS</h2>
 								</article>
 								<article class="style6">
 									<span class="image">
@@ -113,10 +108,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Tsukumo-Sana">
 										<div class="content">
-											<h2>Tsukumo Sana</h2>
-											<p>hololive English -Council-</p>
 										</div>
 									</Link>
+											<h2>Tsukumo Sana</h2>
 								</article>
 								<article class="style2">
 									<span class="image">
@@ -124,10 +118,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Ceres-Fauna">
 										<div class="content">
-											<h2>Ceres Fauna</h2>
-											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
+											<h2>Ceres Fauna</h2>
 								</article>
 								<article class="style3">
 									<span class="image">
@@ -135,10 +128,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="../Ouro-Kronii">
 										<div class="content">
-											<h2>Ouro Kronii</h2>
-											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
+											<h2>Ouro Kronii</h2>
 								</article>
 								<article class="style1">
 									<span class="image">
@@ -146,10 +138,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Nanashi-Mumei">
 										<div class="content">
-											<h2>Nanashi Mumei</h2>
-											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
+											<h2>Nanashi Mumei</h2>
 								</article>
 								<article class="style5">
 									<span class="image">
@@ -157,10 +148,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Hakos-Baelz">
 										<div class="content">
-											<h2>Hakos Baelz</h2>
-											<p>hololive English -Promise-</p>
 										</div>
 									</Link>
+											<h2>Hakos Baelz</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -168,10 +158,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Novella-Shiori">
 										<div class="content">
-											<h2>Shiori Novella</h2>
-											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
+											<h2>Shiori Novella</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -179,10 +168,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Koseki-Bijou">
 										<div class="content">
-											<h2>Koseki Bijou</h2>
-											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
+											<h2>Koseki Bijou</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -190,10 +178,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Ravencroft-Nerissa">
 										<div class="content">
-											<h2>Nerissa Ravencroft</h2>
-											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
+											<h2>Nerissa Ravencroft</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -201,10 +188,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/FUWAMOCO">
 										<div class="content">
-											<h2>FUWAMOCO</h2>
-											<p>hololive English -Advent-</p>
 										</div>
 									</Link>
+											<h2>FUWAMOCO</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -212,10 +198,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Elizabeth-Bloodflame">
 										<div class="content">
-											<h2>Elizabeth Bloodflame</h2>
-											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
+											<h2>Elizabeth Bloodflame</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -223,10 +208,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Gigi-Murin">
 										<div class="content">
-											<h2>Gigi Murin</h2>
-											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
+											<h2>Gigi Murin</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -234,10 +218,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Cecilia-Immergreen">
 										<div class="content">
-											<h2>Cecilia Immergreen</h2>
-											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
+											<h2>Cecilia Immergreen</h2>
 								</article>
 								<article class="style4">
 									<span class="image">
@@ -245,10 +228,9 @@ class TalentEN extends React.Component{
 									</span>
 									<Link to="/Raora-Panthera">
 										<div class="content">
-											<h2>Raora Panthera</h2>
-											<p>hololive English -Justice-</p>
 										</div>
 									</Link>
+											<h2>Raora Panthera</h2>
 								</article>
 							</section>
 						</div>
