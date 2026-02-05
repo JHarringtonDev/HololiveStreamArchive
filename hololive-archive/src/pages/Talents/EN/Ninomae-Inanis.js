@@ -18,7 +18,7 @@ class Ina extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Ninomae Inanis" results={resultsArr} />
+                <StreamDisplay talentName="Ninomae Ina'nis" results={resultsArr} />
 
 
         {/* Footer */}
