@@ -136,7 +136,9 @@ class StreamDisplay extends React.Component {
     return (
       <div id="main">
 						<div className="inner">
-							<GameHeader />
+							{/* <GameHeader talentName={this.props.talentName} /> */}
+              <h1>{this.props.talentName}</h1>
+              <p>{this.props.talentName} has currently published {this.props.results.length} videos. Press the Load Selection button to get options for filtering videos. Or if you know what you're looking for, use the search bar below for more precise filtering.</p>
               <div id = "selectionContainer">
                 <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}} >Load Selection</button>
   							{/* <section id="talentBox">
@@ -181,7 +183,6 @@ class StreamDisplay extends React.Component {
 							<section id="videoList">
 								{/* Talent Sections and video articles inside */}
 								<section id="moriCalliope" className="partContainer">
-								<h2 className="talentName">{this.props.talentName}</h2>
 								<section id="results" className="tiles parts">
 									
 								</section>
