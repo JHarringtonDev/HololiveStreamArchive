@@ -18,7 +18,7 @@ class Baelz extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Hakos Baelz" results={resultsArr} />
 
 
         {/* Footer */}

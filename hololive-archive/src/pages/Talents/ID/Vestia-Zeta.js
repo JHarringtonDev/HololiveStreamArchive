@@ -18,7 +18,7 @@ class Zeta extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Vestia Zeta" results={resultsArr} />
 
 
         {/* Footer */}

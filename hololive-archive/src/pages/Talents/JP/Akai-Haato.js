@@ -18,7 +18,7 @@ return(
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Akai Haato" results={resultsArr} />
 
 
         {/* Footer */}

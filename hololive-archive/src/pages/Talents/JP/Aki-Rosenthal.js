@@ -18,7 +18,7 @@ class Aki extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Aki Rosenthal" results={resultsArr} />
 
 
         {/* Footer */}

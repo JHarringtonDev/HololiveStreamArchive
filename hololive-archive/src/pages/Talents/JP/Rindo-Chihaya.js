@@ -18,7 +18,7 @@ class Chihaya extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Rindo Chihaya" results={resultsArr} />
 
 
         {/* Footer */}

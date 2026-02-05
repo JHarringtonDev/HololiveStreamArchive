@@ -18,7 +18,7 @@ class Suisei extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Hoshimachi Suisei" results={resultsArr} />
 
 
         {/* Footer */}

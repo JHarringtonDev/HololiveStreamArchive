@@ -18,7 +18,7 @@ class Matsuri extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Natsuiro Matsuri" results={resultsArr} />
 
 
         {/* Footer */}

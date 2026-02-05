@@ -18,7 +18,7 @@ class Iofi extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Airani Iofifteen" results={resultsArr} />
 
 
         {/* Footer */}

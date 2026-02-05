@@ -18,7 +18,7 @@ class Cecilia extends React.Component{
         {/* Menu */}
 
         {/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Cecilia Immergreen" results={resultsArr} />
 
 
         {/* Footer */}

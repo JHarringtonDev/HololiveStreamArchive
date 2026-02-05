@@ -18,7 +18,7 @@ class Ao extends React.Component{
         {/* Menu */}
 
         {/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Hiodoshi Ao" results={resultsArr} />
 
 
         {/* Footer */}

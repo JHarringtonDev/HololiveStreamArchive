@@ -18,7 +18,7 @@ class Koyori extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Hakui Koyori" results={resultsArr} />
 
 
         {/* Footer */}

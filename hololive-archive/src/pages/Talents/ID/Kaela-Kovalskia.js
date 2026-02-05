@@ -18,7 +18,7 @@ class Kaela extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Kaela Kovalskia" results={resultsArr} />
 
 
         {/* Footer */}

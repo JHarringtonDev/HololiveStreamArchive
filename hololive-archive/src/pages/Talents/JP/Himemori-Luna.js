@@ -18,7 +18,7 @@ class Luna extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Himemori Luna" results={resultsArr} />
 
 
         {/* Footer */}

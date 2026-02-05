@@ -18,7 +18,7 @@ class Fauna extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Ceres Fauna" results={resultsArr} />
 
 
         {/* Footer */}

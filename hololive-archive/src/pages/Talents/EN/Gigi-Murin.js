@@ -18,7 +18,7 @@ class Gigi extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Gigi Murin" results={resultsArr} />
 
 
         {/* Footer */}

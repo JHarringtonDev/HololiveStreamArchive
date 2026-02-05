@@ -18,7 +18,7 @@ class Sora extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Tokino Sora" results={resultsArr} />
 
 
         {/* Footer */}

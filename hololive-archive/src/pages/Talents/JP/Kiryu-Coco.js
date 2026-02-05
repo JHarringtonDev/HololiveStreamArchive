@@ -18,7 +18,7 @@ class Coco extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Kiryu Coco" results={resultsArr} />
 
 
         {/* Footer */}

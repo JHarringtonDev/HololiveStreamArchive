@@ -18,7 +18,7 @@ class Aqua extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Minato Aqua" results={resultsArr} />
 
 
         {/* Footer */}

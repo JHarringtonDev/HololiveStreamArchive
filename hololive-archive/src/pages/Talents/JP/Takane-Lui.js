@@ -18,7 +18,7 @@ class Lui extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Takane Lui" results={resultsArr} />
 
 
         {/* Footer */}

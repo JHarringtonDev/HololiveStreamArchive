@@ -18,7 +18,7 @@ class Chloe extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Sakamata Chloe" results={resultsArr} />
 
 
         {/* Footer */}

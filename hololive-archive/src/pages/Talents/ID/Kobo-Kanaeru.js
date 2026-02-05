@@ -18,7 +18,7 @@ class Kobo extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Kobo Kanaeru" results={resultsArr} />
 
 
         {/* Footer */}

@@ -18,7 +18,7 @@ class Roboco extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Roboco san" results={resultsArr} />
 
 
         {/* Footer */}

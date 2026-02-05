@@ -18,7 +18,7 @@ class Marine extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Houshou Marine" results={resultsArr} />
 
 
         {/* Footer */}

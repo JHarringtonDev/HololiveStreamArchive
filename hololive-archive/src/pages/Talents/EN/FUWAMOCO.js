@@ -18,7 +18,7 @@ class FUWAMOCO extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="FUWAMOCO" results={resultsArr} />
 
 
         {/* Footer */}

@@ -18,7 +18,7 @@ class Kiara extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Takanashi Kiara" results={resultsArr} />
 
 
         {/* Footer */}

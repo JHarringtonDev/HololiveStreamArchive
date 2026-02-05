@@ -18,7 +18,7 @@ class Ollie extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Kureiji Ollie" results={resultsArr} />
 
 
         {/* Footer */}

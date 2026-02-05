@@ -18,7 +18,7 @@ class Fubuki extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Shirakami Fubuki" results={resultsArr} />
 
 
         {/* Footer */}

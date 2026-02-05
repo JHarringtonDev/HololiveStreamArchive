@@ -18,7 +18,7 @@ class Elizabeth extends React.Component{
         {/* Menu */}
 
         {/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Elizabeth Rose Bloodflame" results={resultsArr} />
 
 
         {/* Footer */}

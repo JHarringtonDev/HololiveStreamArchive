@@ -18,7 +18,7 @@ class Shion extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Murasaki Shion" results={resultsArr} />
 
 
         {/* Footer */}

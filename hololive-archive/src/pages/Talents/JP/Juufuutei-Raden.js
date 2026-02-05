@@ -18,7 +18,7 @@ class Raden extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Juufuutei Raden" results={resultsArr} />
 
 
         {/* Footer */}

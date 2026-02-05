@@ -18,7 +18,7 @@ class Raora extends React.Component{
         {/* Menu */}
 
         {/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Raora Panthera" results={resultsArr} />
 
 
         {/* Footer */}

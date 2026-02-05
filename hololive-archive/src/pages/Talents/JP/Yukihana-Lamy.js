@@ -18,7 +18,7 @@ class Lamy extends React.Component{
 				{/* Menu */}
 
 				{/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Yukihana Lamy" results={resultsArr} />
 
 
         {/* Footer */}

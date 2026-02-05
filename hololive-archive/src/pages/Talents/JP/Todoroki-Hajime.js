@@ -18,7 +18,7 @@ class Hajime extends React.Component{
         {/* Menu */}
 
         {/* Main */}
-                <StreamDisplay talentName="Inugami Korone" results={resultsArr} />
+                <StreamDisplay talentName="Todoroki Hajime" results={resultsArr} />
 
 
         {/* Footer */}
