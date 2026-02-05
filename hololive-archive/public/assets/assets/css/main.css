@@ -99,7 +99,10 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		/* background: #ffffff; */
+		background-image: url(https://hololivepro.com/wp-content/themes/hololive_production/images/common_bg.svg);
+		background-repeat: no-repeat;
+  	background-attachment: fixed;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
