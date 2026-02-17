@@ -59,7 +59,7 @@ function searchStreams(results, pattern){
 // let selectionList = document.getElementById("dropdownList")
     function displayGames(results)
     {
-      document.getElementById("selectionButton").style.display = "none"
+      // document.getElementById("selectionButton").style.display = "none"
       let streamTitles = []
       results.forEach((arrayElement) =>{
         let indexStart = arrayElement.title.indexOf("【")
@@ -150,8 +150,8 @@ class StreamDisplay extends React.Component {
               <p>{this.props.talentName} has currently published {this.props.results.length} videos. Press the Load Selection button to get options for filtering videos. Or if you know what you're looking for, use the search bar below for more precise filtering.</p>
               
               <section>
-                <div id = "selectionContainer">
-                  <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}} >Load Selection</button>
+                <div id = "selectionContainer" onClick={() => {displayGames(this.props.results)}}>
+                  {/* <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}} >Load Selection</button> */}
   						  	{/* <section id="talentBox">
   						  	<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={()  => {displayResults("biohazard   HD REMASTER", this.props.results)}}/>
   						  	<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() =>  {displayResults("biohazard  RE:2", this.props.results)}}/>
