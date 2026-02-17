@@ -147,7 +147,7 @@ class StreamDisplay extends React.Component {
 						<div className="inner">
 							{/* <GameHeader talentName={this.props.talentName} /> */}
               <h1>{this.props.talentName}</h1>
-              <p>{this.props.talentName} has currently published {this.props.results.length} videos. Press the Load Selection button to get options for filtering videos. Or if you know what you're looking for, use the search bar below for more precise filtering.</p>
+              <p>{this.props.talentName} has currently published {this.props.results.length} videos. You can use the dropdown menu to get preloaded options for filtering videos. Or if you know what you're looking for, use the search bar below for more precise filtering.</p>
               
               <section>
                 <div id = "selectionContainer" onClick={() => {displayGames(this.props.results)}}>
