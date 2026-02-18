@@ -3523,8 +3523,8 @@ input, select, textarea {
 .trigger:before {
   content: "›";
   rotate: -90deg;
-  width: 17px;
-  height: 17px;
+  width: 27px;
+  height: 27px;
   color: #262626;
   border-radius: 2px;
   font-size: 26px;
@@ -3662,4 +3662,13 @@ input, select, textarea {
 
 #videoList{
 	padding-top: 5rem;
+}
+
+#filteringOptions{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#selectionContainer{
+	max-width: 298px;
 }
