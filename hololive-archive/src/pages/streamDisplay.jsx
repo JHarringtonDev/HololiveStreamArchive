@@ -131,6 +131,16 @@ function searchStreams(results, pattern){
             } )
         }
 
+        // Close dropdown if user clicks outside of it
+        
+// document.addEventListener('click', function(e) {
+//   let dropdownMenu = document.querySelector(".dropdown")
+//   let dropdownOpened = document.getElementById("state-dropdown").checked
+//   if (!document.getElementById("selectionContainer").contains(e.target) && !document.getElementById("dropdownList").contains(e.target)) {
+//     console.log(e.target)
+//     document.getElementById("state-dropdown").checked = false
+//   }})
+
 // const searchButton = document.querySelector('.search__button')
 document.addEventListener('keyup', function(e) {
   e.preventDefault()
@@ -176,7 +186,7 @@ class StreamDisplay extends React.Component {
                       class="trigger"
                     ></label>
 
-                    <ul class="list webkit-scrollbar" role="list" dir="auto">
+                    <ul id="dropdownList" class="list webkit-scrollbar" role="list" dir="auto">
 
                     </ul>
                   </div>
