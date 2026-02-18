@@ -149,13 +149,19 @@ class StreamDisplay extends React.Component {
               <h1>{this.props.talentName}</h1>
               <p>{this.props.talentName} has currently published {this.props.results.length} videos. You can use the dropdown menu to get preloaded options for filtering videos. Or if you know what you're looking for, use the search bar below for more precise filtering.</p>
               
-              <section>
+              <section id='filteringOptions'>
+                <div class="search">
+                  <input type="text" class="search__input" placeholder="Type your text"/>
+                    <button class="search__button" onClick={() => {searchStreams(this.props.results, document.querySelector ('.search__input').value)}}>
+                      <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                      <g>
+                          <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03  9 9 9c2.215 0 4.24-.804 5.        808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.  295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.       365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.  365-7.5-7.5z"></path>
+                      </g>
+                      </svg>
+                    </button>
+                </div>
+
                 <div id = "selectionContainer" onClick={() => {displayGames(this.props.results)}}>
-                  {/* <button id='selectionButton' className="primary" onClick={() => {displayGames(this.props.results)}} >Load Selection</button> */}
-  						  	{/* <section id="talentBox">
-  						  	<img src="assets/images/games/re1.png" alt="Resident Evil HD" className="iconSelect" onClick={()  => {displayResults("biohazard   HD REMASTER", this.props.results)}}/>
-  						  	<img src="assets/images/games/re2.png" alt="Resident Evil 2" className="iconSelect" onClick={() =>  {displayResults("biohazard  RE:2", this.props.results)}}/>
-  						  	</section> */}
                   <div class="dropdown">
                     <input
                       hidden=""
@@ -175,22 +181,8 @@ class StreamDisplay extends React.Component {
                     </ul>
                   </div>
                 </div>
-                
-                <div class="search">
-                  <input type="text" class="search__input" placeholder="Type your text"/>
-                    <button class="search__button" onClick={() => {searchStreams(this.props.results, document.querySelector ('.search__input').value)}}>
-                      <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
-                      <g>
-                          <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03  9 9 9c2.215 0 4.24-.804 5.        808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.  295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.       365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.  365-7.5-7.5z"></path>
-                      </g>
-                      </svg>
-                    </button>
-                </div>
 
               </section>
-
-
-
 
 							<section id="videoList">
 								{/* Talent Sections and video articles inside */}

@@ -3398,6 +3398,7 @@ input, select, textarea {
 		.videoImg{
 			width: 18rem;
 			height: 10rem;
+			font-size: 1.3rem;
 		}
 		
 	}
@@ -3423,7 +3424,7 @@ input, select, textarea {
 		}
 	}
 
-	@media screen and (max-width: 700px) {
+	@media screen and (max-width: 740px) {
 		#videoList .videoItem {
 			width: 400px;
 			height: 210px;
@@ -3436,7 +3437,7 @@ input, select, textarea {
 		}
 	}
 
-	/* From Uiverse.io by ilkhoeri */ 
+	/* Dropdown From Uiverse.io by ilkhoeri */ 
 .dropdown {
   border: 1px solid #c1c2c5;
   border-radius: 12px;
@@ -3550,6 +3551,19 @@ input, select, textarea {
   width: calc(100% + calc(calc(var(--w-scrollbar) / 2) + var(--w-scrollbar)));
   list-style: none;
 }
+
+.listitem>article:hover{
+	background-color: lightblue;
+	transition: 0.5s
+	/* color: rgb(180, 180, 180); */
+}
+
+.listitem>article:focus{
+	background-color: rgb(0, 191, 255);
+	transition: 0.5s
+	/* color: rgb(180, 180, 180); */
+}
+
 .article {
   padding: 1rem;
   border-radius: 8px;
@@ -3579,7 +3593,7 @@ input, select, textarea {
 }
 
 /* From Uiverse.io by joe-watson-sbf */ 
-.search {
+#main>.inner>#filteringOptions.search {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -3587,7 +3601,7 @@ input, select, textarea {
 	max-width: 40%;
 }
 
-.search__input {
+#main>.inner>#filteringOptions>.search>.search__input {
   font-family: inherit;
   font-size: inherit;
   background-color: #f4f2f2;
@@ -3600,39 +3614,41 @@ input, select, textarea {
   margin-right: -2rem;
 }
 
-.search__input:hover, .search__input:focus {
+#main>.inner>#filteringOptions>.search>.search__input:hover, .search__input:focus {
   box-shadow: 0 0 1em #00000013;
 }
 
-.search__input:focus {
+#main>.inner>#filteringOptions>.search>.search__input:focus {
   outline: none;
   background-color: #f0eeee;
 }
 
-.search__input::-webkit-input-placeholder {
+#main>.inner>#filteringOptions>.search>.search__input::-webkit-input-placeholder {
   font-weight: 100;
   color: #ccc;
 }
 
-.search__input:focus + .search__button {
+#main>.inner>#filteringOptions>.search>.search__input:focus + .search__button {
   background-color: #f0eeee;
 }
 
-.search__button {
+#main>.inner>#filteringOptions>.search>.search__button {
   border: none;
   background-color: #f4f2f2;
   margin-top: .1em;
 }
 
-.search__button:hover {
+#main>.inner>#filteringOptions>.search>.search__button:hover {
   cursor: pointer;
 }
 
-.search__icon {
+#main>.inner>#filteringOptions>.search>.search__button>.search__icon {
   height: 1.3em;
   width: 1.3em;
   fill: #b4b4b4;
 }
+
+/* End Search */
 
 #archiveLogo {
 	width: 5%;
