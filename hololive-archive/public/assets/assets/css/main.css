@@ -3435,6 +3435,10 @@ input, select, textarea {
 		.iconSelect{
 			width: 25%;
 		}
+
+		#filteringOptions{
+			display: block;
+		}
 	}
 
 	/* Dropdown From Uiverse.io by ilkhoeri */ 
@@ -3593,7 +3597,7 @@ input, select, textarea {
 }
 
 /* From Uiverse.io by joe-watson-sbf */ 
-#main>.inner>#filteringOptions.search {
+#main>.inner>#filteringOptions>.search {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -3609,7 +3613,7 @@ input, select, textarea {
   color: #646464;
   padding: 0.7rem 1rem;
   border-radius: 30px;
-  width: 12em;
+  width: 18em;
   transition: all ease-in-out .5s;
   margin-right: -2rem;
 }
@@ -3672,3 +3676,13 @@ input, select, textarea {
 #selectionContainer{
 	max-width: 298px;
 }
+
+	@media screen and (max-width: 740px) {
+		#filteringOptions{
+			flex-wrap: wrap;
+		}
+
+		#main>.inner>#filteringOptions > .search {
+  	padding-bottom: 1em;
+}
+	}
